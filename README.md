@@ -13,3 +13,6 @@ This program **is not made by me**, the original source code made by rootabx can
 I downgraded to NetFrameWork3.5 to it works on ReactOS and it works. Also changed code litle bit but it's buggy and I need your help.
 Requirements:
 https://github.com/itsmattkc/dotnet9x
+I'm going to improve too much so it's not only MrsMajor 3.0 modified version.
+Fork of this project:
+https://github.com/acastillorobles77/MrsMajor-3.0-VB.NET/issues
