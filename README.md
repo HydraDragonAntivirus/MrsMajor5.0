@@ -14,5 +14,12 @@ I downgraded to NetFrameWork3.5 to it works on ReactOS and it works. Also change
 Requirements:
 https://github.com/itsmattkc/dotnet9x
 I'm going to improve too much so it's not only MrsMajor 3.0 modified version.
-Fork of this project:
-https://github.com/acastillorobles77/MrsMajor-3.0-VB.NET/issues
+
+# References
+Fork of this project: https://github.com/Gork3m/MrsMajor-3.0
+Fork of this project: https://github.com/acastillorobles77/MrsMajor-3.0-VB.NET
+Fork of this project: https://github.com/WobbyChip/Delphi/tree/master/MBR%20UEFI%20-%20Note%20Builder
+Used in project: https://github.com/itisrazza/VGAPainter
+Learn MBR: https://www.youtube.com/watch?v=6hN3q62ttes
+# Icon
+![MrsMajor5](assets/MrsMajor5.png)
