@@ -1,0 +1,2 @@
+python convertsmaller.py MrsMajor5small_resized.png MrsMajor5smallframe2_resized.png MrsMajor5small.png MrsMajor5smallframe2.png
+python convertbin.py output.bin MrsMajor5small_resized.png MrsMajor5smallframe2_resized.png

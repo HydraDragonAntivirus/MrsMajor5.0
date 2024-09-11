@@ -1,154 +1,115 @@
-[org 0x7C00]        ; Set origin to boot sector
-[BITS 16]           ; 16-bit real mode
+BITS 16
+org 0x7c00
 
-start:
-    ; Initialize data segment and extra segment
-    mov ax, 0x0000    ; Set data segment
+; Clear the segments
+segments_clear:
+    cli
+    xor ax, ax
     mov ds, ax
     mov es, ax
+    mov ss, ax
+    mov sp, 0x7c00
+    mov bp, sp
+    sti
 
-    ; Display the message
-    call display_message
+; Set video mode 0x13 (320x200, 256 colors)
+start:
+    mov ax, 0x13
+    int 0x10
 
-    ; Load frame 1 data using extended sector read
-    call load_frame1_data_extended
+; Load and decompress compressed output.bin into memory
+load_and_decompress:
+    ; Load compressed data from disk (assuming output.bin is on disk)
+    mov ah, 0x02       ; Read sectors from disk
+    mov al, 1          ; Number of sectors to read
+    mov bx, compressed ; ES:BX points to where compressed data is loaded
+    mov dl, 0x00       ; Drive 0 (floppy)
+    mov dh, 0          ; Head 0
+    mov ch, 0          ; Cylinder 0
+    mov cl, 2          ; Sector 2 (where output.bin starts)
+    int 0x13           ; BIOS interrupt to read the disk
 
-    ; Display the first frame
+    ; Start decompression of the loaded data
+    xor ax, ax
+    xor bx, bx
+    xor cx, cx
+    xor dx, dx
+    mov si, compressed  ; SI points to compressed data
+    mov di, uncompressed ; DI points to decompressed destination
+
+decompress_loop:
+    lodsb                ; Load byte into AL from compressed data
+
+    cmp si, uncompressed  ; If we're done, exit
+    jae decompression_done
+
+    cmp al, 128           ; Check if it's new or old data
+    jae new_data
+    jmp old_data
+
+new_data:
+    and al, 127           ; Mask the high bit
+    mov cl, al            ; Load count
+
+new_next_byte:
+    lodsb                 ; Load byte into AL
+    stosb                 ; Store byte at ES:[DI]
+    dec cl
+    cmp cl, -1
+    jne new_next_byte
+    jmp decompress_loop
+
+old_data:
+    mov ah, 0
+    cmp al, 64
+    jb old_data_case
+
+    and al, 63
+    mov ah, al            ; Offset length in AH
+    lodsb                 ; Load next byte
+
+old_data_case:
+    mov cx, ax            ; Set CX to offset length
+    lodsw                 ; Load next word
+    mov dx, si
+    mov si, di
+    sub si, ax            ; Calculate source address for copy
+
+old_next_byte:
+    lodsb                 ; Copy bytes from SI to DI
+    stosb
+    loop old_next_byte
+    mov si, dx
+    jmp decompress_loop
+
+decompression_done:
+    ; Decompressed data is now in the memory
+    ; Proceed to handle frames and display them
     call display_frame1
-    call delay_1_second
-    call play_static_sound
+    jmp $
 
-    ; Load frame 2 data using extended sector read
-    call load_frame2_data_extended
-
-    ; Display the second frame
-    call display_frame2
-    call delay_1_second
-    call play_static_sound
-
-    ; Loop indefinitely
-loop_forever:
-    jmp loop_forever
-
-; Extended disk read function (INT 0x13, AH=0x42)
-load_frame1_data_extended:
-    mov ax, 0x1000          ; Segment for the frame 1 data
-    mov es, ax
-
-    lea bx, [disk_address_packet1] ; Load address of DAP into bx
-    mov si, bx              ; Load address of DAP into si
-    mov ah, 0x42            ; Extended read
-    int 0x13                ; BIOS interrupt
-    jc disk_error           ; Jump if there's an error
-    ret
-
-load_frame2_data_extended:
-    mov ax, 0x2000          ; Segment for the frame 2 data
-    mov es, ax
-
-    lea bx, [disk_address_packet2] ; Load address of DAP into bx
-    mov si, bx              ; Load address of DAP into si
-    mov ah, 0x42            ; Extended read
-    int 0x13                ; BIOS interrupt
-    jc disk_error           ; Jump if there's an error
-    ret
-
-; Disk Address Packet (DAP) for reading frame data
-disk_address_packet1:
-    db 0x10                 ; Size of DAP (16 bytes)
-    db 0x00                 ; Reserved
-    dw 128                  ; Number of sectors to read (64KB = 128 sectors)
-    dw 0x0000               ; Offset in memory (0x0000)
-    dw 0x1000               ; Segment in memory (0x1000 for frame 1)
-    dd 0x00000002           ; LBA (starting sector number for frame 1)
-    db 0x00                 ; Fill remaining bytes to make up 16 bytes
-    db 0x00                 ; Fill remaining bytes to make up 16 bytes
-
-disk_address_packet2:
-    db 0x10                 ; Size of DAP (16 bytes)
-    db 0x00                 ; Reserved
-    dw 128                  ; Number of sectors to read (64KB = 128 sectors)
-    dw 0x0000               ; Offset in memory (0x0000)
-    dw 0x2000               ; Segment in memory (0x2000 for frame 2)
-    dd 0x00000123           ; LBA (starting sector number for frame 2)
-    db 0x00                 ; Fill remaining bytes to make up 16 bytes
-    db 0x00                 ; Fill remaining bytes to make up 16 bytes
-
-; Display the message in text mode 03h
-display_message:
-    mov ax, 0x03
-    int 0x10          ; Set Mode 03h (80x25 text mode)
-    mov si, message
-    call display_text
-    ret
-
-; Display text character by character
-display_text:
-    mov ax, 0xB800     ; Video memory segment for text mode
-    mov es, ax         ; Load segment address
-    mov di, 0          ; Start from the beginning of video memory
-next_char:
-    lodsb              ; Load byte from [si] into al and increment si
-    cmp al, 0          ; Check if end of string (null terminator)
-    je done_text       ; Jump if end of string
-    mov ah, 0x0F       ; Attribute for text color (white on black)
-    stosw              ; Store word (character and attribute) into [di]
-    jmp next_char      ; Repeat for the next character
-done_text:
-    ret
-
-; Display frame 1 data (assumed to be at 0x1000)
 display_frame1:
-    mov ax, 0x13          ; Set Mode 13h (320x200, 256 colors)
-    int 0x10              ; BIOS interrupt
-    mov ax, 0x1000        ; Load the source segment for frame data into ax
-    mov es, ax            ; Move segment value from ax to es
-    mov di, 0x0000        ; Destination offset in video memory (0xA0000)
-    mov cx, 32000         ; Number of words (320x200 pixels / 2)
-    rep movsw             ; Move frame data to video memory
+    ; Here you can add code to display the first frame
+    ; Load the first part of uncompressed data (A000:0000)
     ret
 
-; Display frame 2 data (assumed to be at 0x2000)
 display_frame2:
-    mov ax, 0x13          ; Set Mode 13h (320x200, 256 colors)
-    int 0x10              ; BIOS interrupt
-    mov ax, 0x2000        ; Load the source segment for frame data into ax
-    mov es, ax            ; Move segment value from ax to es
-    mov di, 0x0000        ; Destination offset in video memory (0xA0000)
-    mov cx, 32000         ; Number of words (320x200 pixels / 2)
-    rep movsw             ; Move frame data to video memory
+    ; Here you can add code to display the second frame
+    ; Load the second part of uncompressed data (A000:0000)
     ret
 
-; Delay for approximately 1 second
-delay_1_second:
-    mov cx, 0xFFFF    ; Adjust loop count for timing
-delay_loop:
-    nop               ; No operation (just waste time)
-    loop delay_loop   ; Repeat until CX is zero
-    ret
+; Error handler (optional)
+boot_error:
+    mov ah, 0x0E
+    mov al, 'X'
+    int 0x10
+    jmp stop
 
-; Generate static noise (PC speaker)
-play_static_sound:
-    mov al, 0xB6      ; Set square wave generator
-    out 0x43, al
-    mov al, 0xFF      ; Generate noise frequency
-    out 0x42, al
-    mov al, 0x03      ; Enable PC speaker
-    out 0x61, al
-    call delay_1_second ; Play sound for 1 second
-    mov al, 0x00      ; Turn off PC speaker
-    out 0x61, al
-    ret
+stop:
+    hlt
 
-disk_error:
-    ; Handle disk error here (optional)
-    ret
+times 510 - ($-$$) db 0
+dw 0xaa55
 
-; Message to display
-message db 'MrsMajor5 NOW In Your NIGHTMARES', 0
-
-; Fill the boot sector up to 510 bytes with 0x00
-times 510-($-$$) db 0
-
-; Boot signature
-dw 0xAA55
+compressed: times 512 - ($-$$) db 0
+uncompressed: times 512 - ($-$$) db 0
