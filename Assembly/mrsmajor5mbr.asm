@@ -40,50 +40,50 @@ load_and_decompress:
 decompress_loop:
     lodsb                ; Load byte into AL from compressed data
 
-    cmp si, uncompressed  ; If we're done, exit
-    jae decompression_done
-
-    cmp al, 128           ; Check if it's new or old data
-    jae new_data
-    jmp old_data
-
-new_data:
-    and al, 127           ; Mask the high bit
-    mov cl, al            ; Load count
-
-new_next_byte:
-    lodsb                 ; Load byte into AL
-    stosb                 ; Store byte at ES:[DI]
-    dec cl
-    cmp cl, -1
-    jne new_next_byte
-    jmp decompress_loop
+    cmp al, 128          ; Check if it's a new or old data block
+    jb old_data
+    ; New data block
+    and al, 127          ; Mask high bit
+    mov cl, al           ; Load count into CL
+    jmp new_data_block
 
 old_data:
-    mov ah, 0
+    ; Old data block
     cmp al, 64
     jb old_data_case
 
     and al, 63
-    mov ah, al            ; Offset length in AH
-    lodsb                 ; Load next byte
-
-old_data_case:
-    mov cx, ax            ; Set CX to offset length
-    lodsw                 ; Load next word
-    mov dx, si
-    mov si, di
-    sub si, ax            ; Calculate source address for copy
+    mov ah, al           ; Offset length in AH
+    lodsb                ; Load next byte into AL
+    mov cx, ax           ; Set CX to offset length
+    lodsw                ; Load next word into AX
+    mov dx, si           ; Save current SI to DX
+    mov si, di           ; Set SI to destination address
+    sub si, ax           ; Adjust SI by offset length
 
 old_next_byte:
-    lodsb                 ; Copy bytes from SI to DI
-    stosb
+    lodsb                ; Load byte into AL
+    stosb                ; Store byte at ES:[DI]
     loop old_next_byte
-    mov si, dx
+    mov si, dx           ; Restore SI from DX
+    jmp decompress_loop
+
+old_data_case:
+    mov cl, al           ; Load count into CL
+    jmp decompress_loop
+
+new_data_block:
+    ; New data block
+    mov cl, al           ; Count of bytes to copy
+new_next_byte:
+    lodsb                ; Load byte into AL
+    stosb                ; Store byte at ES:[DI]
+    dec cl
+    jnz new_next_byte
     jmp decompress_loop
 
 decompression_done:
-    ; Decompressed data is now in the memory
+    ; Decompressed data is now in memory
     ; Proceed to handle frames and display them
     call display_frame1
     jmp $
