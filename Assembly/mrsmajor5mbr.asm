@@ -17,16 +17,16 @@ start:
     mov ax, 0x13
     int 0x10
 
-; Load and decompress compressed output.bin into memory
+; Load and decompress compressed data from disk
 load_and_decompress:
-    ; Load compressed data from disk (assuming output.bin is on disk)
+    ; Read compressed data from disk (assuming it starts at sector 2)
     mov ah, 0x02       ; Read sectors from disk
     mov al, 1          ; Number of sectors to read
     mov bx, compressed ; ES:BX points to where compressed data is loaded
     mov dl, 0x00       ; Drive 0 (floppy)
     mov dh, 0          ; Head 0
     mov ch, 0          ; Cylinder 0
-    mov cl, 2          ; Sector 2 (where output.bin starts)
+    mov cl, 2          ; Sector 2 (where compressed data starts)
     int 0x13           ; BIOS interrupt to read the disk
 
     ; Start decompression of the loaded data
@@ -40,23 +40,26 @@ load_and_decompress:
 decompress_loop:
     lodsb                ; Load byte into AL from compressed data
 
-    cmp al, 128          ; Check if it's a new or old data block
+    cmp si, uncompressed  ; Check if we are done
+    jae decompression_done
+
+    cmp al, 128          ; Check if it's new data
     jb old_data
-    ; New data block
+    ; New data
     and al, 127          ; Mask high bit
     mov cl, al           ; Load count into CL
     jmp new_data_block
 
 old_data:
-    ; Old data block
+    ; Old data
     cmp al, 64
     jb old_data_case
 
     and al, 63
     mov ah, al           ; Offset length in AH
-    lodsb                ; Load next byte into AL
+    lodsb                ; Load next byte
     mov cx, ax           ; Set CX to offset length
-    lodsw                ; Load next word into AX
+    lodsw                ; Load next word
     mov dx, si           ; Save current SI to DX
     mov si, di           ; Set SI to destination address
     sub si, ax           ; Adjust SI by offset length
