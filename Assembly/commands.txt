@@ -1,2 +1,1 @@
 nasm -f bin mrsmajor5mbr.asm -o mrsmajor5mbr.bin
-gcc overwritetest.c -o overwrittest.exe
