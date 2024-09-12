@@ -1,0 +1,14 @@
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\bin\Release\gdifuncs.exe.config
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\bin\Release\gdifuncs.exe
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\bin\Release\gdifuncs.pdb
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.vbproj.AssemblyReference.cache
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.MainForm.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.majorsgui.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.Resources.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.pinksavage.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.protection64.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.Resource1.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.vbproj.GenerateResource.cache
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.vbproj.CoreCompileInputs.cache
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.exe
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.pdb
