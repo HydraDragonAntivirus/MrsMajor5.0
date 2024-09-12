@@ -19,5 +19,6 @@ I'm going to improve too much so it's not only MrsMajor 3.0 modified version.
 Fork of this project: https://github.com/Gork3m/MrsMajor-3.0
 Fork of this project: https://github.com/acastillorobles77/MrsMajor-3.0-VB.NET
 Fork of this project: https://github.com/WobbyChip/Delphi/tree/master/MBR%20UEFI%20-%20Note%20Builder
+Used for obfuscation: https://github.com/Dentrax/Z00bfuscator
 # Icon
 ![MrsMajor5](assets/MrsMajor5.png)
