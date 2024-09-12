@@ -1,0 +1,318 @@
+Renamed Types:
+
+[gdifuncs]gdifuncs.My.MyProject -> [gdifuncs]A.B
+{
+	[gdifuncs]gdifuncs.My.MyProject::get_Computer[0]( ) -> A
+	[gdifuncs]gdifuncs.My.MyProject::get_Application[0]( ) -> a
+	[gdifuncs]gdifuncs.My.MyProject::get_User[0]( ) -> B
+	[gdifuncs]gdifuncs.My.MyProject::get_WebServices[0]( ) -> b
+
+	[gdifuncs]gdifuncs.My.MyProject::.cctor[0]( ) skipped:  special name
+
+	gdifuncs.My.MyProject/ThreadSafeObjectProvider`1<gdifuncs.My.MyComputer> [gdifuncs]gdifuncs.My.MyProject/ThreadSafeObjectProvider`1<gdifuncs.My.MyComputer> gdifuncs.My.MyProject::m_ComputerObjectProvider -> A
+	gdifuncs.My.MyProject/ThreadSafeObjectProvider`1<gdifuncs.My.MyApplication> [gdifuncs]gdifuncs.My.MyProject/ThreadSafeObjectProvider`1<gdifuncs.My.MyApplication> gdifuncs.My.MyProject::m_AppObjectProvider -> A
+	gdifuncs.My.MyProject/ThreadSafeObjectProvider`1<Microsoft.VisualBasic.ApplicationServices.User> [gdifuncs]gdifuncs.My.MyProject/ThreadSafeObjectProvider`1<Microsoft.VisualBasic.ApplicationServices.User> gdifuncs.My.MyProject::m_UserObjectProvider -> A
+	gdifuncs.My.MyProject/ThreadSafeObjectProvider`1<gdifuncs.My.MyProject/MyWebServices> [gdifuncs]gdifuncs.My.MyProject/ThreadSafeObjectProvider`1<gdifuncs.My.MyProject/MyWebServices> gdifuncs.My.MyProject::m_MyWebServicesObjectProvider -> A
+
+	gdifuncs.My.MyComputer [gdifuncs]gdifuncs.My.MyComputer gdifuncs.My.MyProject::Computer -> A
+	gdifuncs.My.MyApplication [gdifuncs]gdifuncs.My.MyApplication gdifuncs.My.MyProject::Application -> a
+	Microsoft.VisualBasic.ApplicationServices.User [gdifuncs]Microsoft.VisualBasic.ApplicationServices.User gdifuncs.My.MyProject::User -> B
+	gdifuncs.My.MyProject/MyWebServices [gdifuncs]gdifuncs.My.MyProject/MyWebServices gdifuncs.My.MyProject::WebServices -> b
+}
+
+[gdifuncs]gdifuncs.My.Resources.Resources -> [gdifuncs]A.b
+{
+	[gdifuncs]gdifuncs.My.Resources.Resources::get_ResourceManager[0]( ) -> A
+	[gdifuncs]gdifuncs.My.Resources.Resources::get_Culture[0]( ) -> a
+	[gdifuncs]gdifuncs.My.Resources.Resources::set_Culture[1]( [mscorlib]System.Globalization.CultureInfo ) -> A
+
+	System.Resources.ResourceManager [gdifuncs]System.Resources.ResourceManager gdifuncs.My.Resources.Resources::resourceMan -> A
+	System.Globalization.CultureInfo [gdifuncs]System.Globalization.CultureInfo gdifuncs.My.Resources.Resources::resourceCulture -> A
+
+	System.Resources.ResourceManager [gdifuncs]System.Resources.ResourceManager gdifuncs.My.Resources.Resources::ResourceManager -> A
+	System.Globalization.CultureInfo [gdifuncs]System.Globalization.CultureInfo gdifuncs.My.Resources.Resources::Culture -> a
+}
+
+[gdifuncs]gdifuncs.My.Resources.Resource1 -> [gdifuncs]A.C
+{
+	[gdifuncs]gdifuncs.My.Resources.Resource1::get_ResourceManager[0]( ) -> A
+	[gdifuncs]gdifuncs.My.Resources.Resource1::get_Culture[0]( ) -> a
+	[gdifuncs]gdifuncs.My.Resources.Resource1::set_Culture[1]( [mscorlib]System.Globalization.CultureInfo ) -> A
+	[gdifuncs]gdifuncs.My.Resources.Resource1::get_bootmgfw[0]( ) -> B
+	[gdifuncs]gdifuncs.My.Resources.Resource1::get_mrsmajor5mbr[0]( ) -> b
+
+	[gdifuncs]gdifuncs.My.Resources.Resource1::.ctor[0]( ) skipped:  special name
+
+	System.Resources.ResourceManager [gdifuncs]System.Resources.ResourceManager gdifuncs.My.Resources.Resource1::resourceMan -> A
+	System.Globalization.CultureInfo [gdifuncs]System.Globalization.CultureInfo gdifuncs.My.Resources.Resource1::resourceCulture -> A
+
+	System.Resources.ResourceManager [gdifuncs]System.Resources.ResourceManager gdifuncs.My.Resources.Resource1::ResourceManager -> A
+	System.Globalization.CultureInfo [gdifuncs]System.Globalization.CultureInfo gdifuncs.My.Resources.Resource1::Culture -> a
+	System.String [gdifuncs]System.String gdifuncs.My.Resources.Resource1::bootmgfw -> dropped
+	System.String [gdifuncs]System.String gdifuncs.My.Resources.Resource1::mrsmajor5mbr -> dropped
+}
+
+[gdifuncs]gdifuncs.Program -> [gdifuncs]A.c
+{
+	[gdifuncs]gdifuncs.Program::CreateFile[7]( [mscorlib]System.String, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr ) -> A
+	[gdifuncs]gdifuncs.Program::WriteFile[5]( [mscorlib]System.IntPtr, [mscorlib]System.Byte[], [mscorlib]System.UInt32, [mscorlib]System.UInt32&, [mscorlib]System.IntPtr ) -> A
+	[gdifuncs]gdifuncs.Program::CloseHandle[1]( [mscorlib]System.IntPtr ) -> A
+	[gdifuncs]gdifuncs.Program::WriteMBR[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
+	[gdifuncs]gdifuncs.Program::runprotector[0]( ) -> A
+	[gdifuncs]gdifuncs.Program::runmform[0]( ) -> a
+	[gdifuncs]gdifuncs.Program::Main[0]( ) -> B
+	[gdifuncs]gdifuncs.Program::PerformDestructiveTasks[0]( ) -> b
+	[gdifuncs]gdifuncs.Program::ExtractAndCopyEFI[2]( [mscorlib]System.String, [mscorlib]System.String ) -> a
+	[gdifuncs]gdifuncs.Program::RunCommand[1]( [mscorlib]System.String ) -> A
+
+	System.UInt32 [gdifuncs]System.UInt32 gdifuncs.Program::GENERIC_WRITE -> A
+	System.UInt32 [gdifuncs]System.UInt32 gdifuncs.Program::OPEN_EXISTING -> a
+	System.UInt32 [gdifuncs]System.UInt32 gdifuncs.Program::FILE_ATTRIBUTE_NORMAL -> B
+}
+
+[gdifuncs]gdifuncs.My.MyProject/ThreadSafeObjectProvider`1 -> [gdifuncs]A.B/a`1
+{
+	[gdifuncs]gdifuncs.My.MyProject/ThreadSafeObjectProvider`1::get_GetInstance[0]( ) -> A
+
+	[gdifuncs]gdifuncs.My.MyProject/ThreadSafeObjectProvider`1::.ctor[0]( ) skipped:  special name
+
+	T [gdifuncs]T gdifuncs.My.MyProject/ThreadSafeObjectProvider`1::m_ThreadStaticValue -> A
+
+	A [gdifuncs]A gdifuncs.My.MyProject/ThreadSafeObjectProvider`1::GetInstance -> dropped
+}
+
+[gdifuncs]gdifuncs.Program/_Closure$__ -> [gdifuncs]A.c/A
+{
+
+	[gdifuncs]gdifuncs.Program/_Closure$__::.ctor[0]( ) skipped:  special name
+	[gdifuncs]gdifuncs.Program/_Closure$__::.cctor[0]( ) skipped:  special name
+	[gdifuncs]gdifuncs.Program/_Closure$__::_Lambda$__R9-1[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.Program/_Closure$__::_Lambda$__R9-2[1]( [mscorlib]System.Object ) skipped:  special name
+
+	gdifuncs.Program/_Closure$__ [gdifuncs]gdifuncs.Program/_Closure$__ gdifuncs.Program/_Closure$__::$I -> A
+	System.Threading.WaitCallback [gdifuncs]System.Threading.WaitCallback gdifuncs.Program/_Closure$__::$IR9-1 -> A
+	System.Threading.WaitCallback [gdifuncs]System.Threading.WaitCallback gdifuncs.Program/_Closure$__::$IR9-2 -> a
+}
+
+[gdifuncs]gdifuncs.My.MyApplication -> [gdifuncs]A.A
+{
+
+	[gdifuncs]gdifuncs.My.MyApplication::.ctor[0]( ) skipped:  special name
+}
+
+[gdifuncs]gdifuncs.My.MyComputer -> [gdifuncs]A.a
+{
+
+	[gdifuncs]gdifuncs.My.MyComputer::.ctor[0]( ) skipped:  special name
+}
+
+[gdifuncs]gdifuncs.My.MyProject/MyWebServices -> [gdifuncs]A.B/A
+{
+	[gdifuncs]gdifuncs.My.MyProject/MyWebServices::GetType[0]( ) -> A
+	[gdifuncs]gdifuncs.My.MyProject/MyWebServices::Create__Instance__[1]( !0 ) -> A
+	[gdifuncs]gdifuncs.My.MyProject/MyWebServices::Dispose__Instance__[1]( [gdifuncs]T& ) -> A
+
+	[gdifuncs]gdifuncs.My.MyProject/MyWebServices::Equals[1]( [mscorlib]System.Object ) skipped:  external base class or interface
+	[gdifuncs]gdifuncs.My.MyProject/MyWebServices::GetHashCode[0]( ) skipped:  external base class or interface
+	[gdifuncs]gdifuncs.My.MyProject/MyWebServices::ToString[0]( ) skipped:  external base class or interface
+	[gdifuncs]gdifuncs.My.MyProject/MyWebServices::.ctor[0]( ) skipped:  special name
+}
+
+[gdifuncs]gdifuncs.protection64/EnumDelegate -> [gdifuncs]gdifuncs.protection64/A
+{
+
+	[gdifuncs]gdifuncs.protection64/EnumDelegate::.ctor[2]( [mscorlib]System.Object, [mscorlib]System.IntPtr ) skipped:  runtime method
+	[gdifuncs]gdifuncs.protection64/EnumDelegate::BeginInvoke[4]( [mscorlib]System.IntPtr, [mscorlib]System.Int32, [mscorlib]System.AsyncCallback, [mscorlib]System.Object ) skipped:  runtime method
+	[gdifuncs]gdifuncs.protection64/EnumDelegate::EndInvoke[1]( [mscorlib]System.IAsyncResult ) skipped:  runtime method
+	[gdifuncs]gdifuncs.protection64/EnumDelegate::Invoke[2]( [mscorlib]System.IntPtr, [mscorlib]System.Int32 ) skipped:  runtime method
+}
+
+Skipped Types:
+
+[gdifuncs]gdifuncs.MainForm skipped:  KeepPublicApi option in configuration
+{
+	[gdifuncs]gdifuncs.MainForm::InitializeComponent[0]( ) -> A
+	[gdifuncs]gdifuncs.MainForm::get_Timer1[0]( ) -> a
+	[gdifuncs]gdifuncs.MainForm::set_Timer1[1]( [System.Windows.Forms]System.Windows.Forms.Timer ) -> A
+	[gdifuncs]gdifuncs.MainForm::get_Timer2[0]( ) -> B
+	[gdifuncs]gdifuncs.MainForm::set_Timer2[1]( [System.Windows.Forms]System.Windows.Forms.Timer ) -> a
+	[gdifuncs]gdifuncs.MainForm::get_Timer3[0]( ) -> b
+	[gdifuncs]gdifuncs.MainForm::set_Timer3[1]( [System.Windows.Forms]System.Windows.Forms.Timer ) -> B
+	[gdifuncs]gdifuncs.MainForm::sagaCiz[0]( ) -> C
+	[gdifuncs]gdifuncs.MainForm::solaCiz[0]( ) -> c
+	[gdifuncs]gdifuncs.MainForm::usteCiz[0]( ) -> D
+	[gdifuncs]gdifuncs.MainForm::altaCiz[0]( ) -> d
+	[gdifuncs]gdifuncs.MainForm::dropit[0]( ) -> E
+	[gdifuncs]gdifuncs.MainForm::dropitX[0]( ) -> e
+	[gdifuncs]gdifuncs.MainForm::verticalDropX[0]( ) -> F
+	[gdifuncs]gdifuncs.MainForm::verticalDrop[0]( ) -> f
+	[gdifuncs]gdifuncs.MainForm::MainForm_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+	[gdifuncs]gdifuncs.MainForm::Timer1_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> a
+	[gdifuncs]gdifuncs.MainForm::Timer2_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> B
+	[gdifuncs]gdifuncs.MainForm::Timer3_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> b
+
+	[gdifuncs]gdifuncs.MainForm::get_CreateParams[0]( ) skipped:  skip by property
+	[gdifuncs]gdifuncs.MainForm::.ctor[0]( ) skipped:  special name
+	[gdifuncs]gdifuncs.MainForm::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+	[gdifuncs]gdifuncs.MainForm::GetDC[1]( [mscorlib]System.IntPtr ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.MainForm::ReleaseDC[2]( [mscorlib]System.IntPtr, [mscorlib]System.IntPtr ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.MainForm::SetForegroundWindow[1]( [mscorlib]System.IntPtr ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.MainForm::tm[0]( ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.MainForm::_Lambda$__R37-1[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.MainForm::_Lambda$__R38-2[1]( [mscorlib]System.Object ) skipped:  special name
+
+	System.ComponentModel.IContainer [gdifuncs]System.ComponentModel.IContainer gdifuncs.MainForm::components -> A
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.MainForm::_Timer1 -> A
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.MainForm::_Timer2 -> a
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.MainForm::_Timer3 -> B
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.MainForm::dropdownxpos -> A
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.MainForm::finishdrop -> a
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.MainForm::kalinlik -> B
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.MainForm::qdropdownxpos -> b
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.MainForm::qfinishdrop -> C
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.MainForm::qkalinlik -> c
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.MainForm::maxx -> D
+	System.Double [gdifuncs]System.Double gdifuncs.MainForm::pictrans -> A
+	System.Random [gdifuncs]System.Random gdifuncs.MainForm::rnd -> A
+
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.MainForm::howmuch skipped:  KeepPublicApi option in configuration
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.MainForm::maxy skipped:  KeepPublicApi option in configuration
+
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.MainForm::Timer1 -> dropped
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.MainForm::Timer2 -> dropped
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.MainForm::Timer3 -> dropped
+
+	System.Windows.Forms.CreateParams [gdifuncs]System.Windows.Forms.CreateParams gdifuncs.MainForm::CreateParams skipped:  KeepPublicApi option in configuration
+}
+
+[gdifuncs]gdifuncs.majorsgui skipped:  KeepPublicApi option in configuration
+{
+	[gdifuncs]gdifuncs.majorsgui::InitializeComponent[0]( ) -> A
+	[gdifuncs]gdifuncs.majorsgui::get_Timer1[0]( ) -> a
+	[gdifuncs]gdifuncs.majorsgui::set_Timer1[1]( [System.Windows.Forms]System.Windows.Forms.Timer ) -> A
+	[gdifuncs]gdifuncs.majorsgui::get_Timer2[0]( ) -> B
+	[gdifuncs]gdifuncs.majorsgui::set_Timer2[1]( [System.Windows.Forms]System.Windows.Forms.Timer ) -> a
+	[gdifuncs]gdifuncs.majorsgui::get_PictureBox1[0]( ) -> b
+	[gdifuncs]gdifuncs.majorsgui::set_PictureBox1[1]( [System.Windows.Forms]System.Windows.Forms.PictureBox ) -> A
+	[gdifuncs]gdifuncs.majorsgui::get_Label1[0]( ) -> C
+	[gdifuncs]gdifuncs.majorsgui::set_Label1[1]( [System.Windows.Forms]System.Windows.Forms.Label ) -> A
+	[gdifuncs]gdifuncs.majorsgui::get_PictureBox2[0]( ) -> c
+	[gdifuncs]gdifuncs.majorsgui::set_PictureBox2[1]( [System.Windows.Forms]System.Windows.Forms.PictureBox ) -> a
+	[gdifuncs]gdifuncs.majorsgui::get_PictureBox6[0]( ) -> D
+	[gdifuncs]gdifuncs.majorsgui::set_PictureBox6[1]( [System.Windows.Forms]System.Windows.Forms.PictureBox ) -> B
+	[gdifuncs]gdifuncs.majorsgui::get_PictureBox4[0]( ) -> d
+	[gdifuncs]gdifuncs.majorsgui::set_PictureBox4[1]( [System.Windows.Forms]System.Windows.Forms.PictureBox ) -> b
+	[gdifuncs]gdifuncs.majorsgui::get_PictureBox3[0]( ) -> E
+	[gdifuncs]gdifuncs.majorsgui::set_PictureBox3[1]( [System.Windows.Forms]System.Windows.Forms.PictureBox ) -> C
+	[gdifuncs]gdifuncs.majorsgui::get_PictureBox5[0]( ) -> e
+	[gdifuncs]gdifuncs.majorsgui::set_PictureBox5[1]( [System.Windows.Forms]System.Windows.Forms.PictureBox ) -> c
+	[gdifuncs]gdifuncs.majorsgui::flogon[0]( ) -> F
+	[gdifuncs]gdifuncs.majorsgui::majorsgui_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+	[gdifuncs]gdifuncs.majorsgui::Timer1_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> a
+	[gdifuncs]gdifuncs.majorsgui::Timer2_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> B
+	[gdifuncs]gdifuncs.majorsgui::PictureBox1_MouseDown[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) -> A
+	[gdifuncs]gdifuncs.majorsgui::PictureBox1_MouseUp[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) -> a
+	[gdifuncs]gdifuncs.majorsgui::PictureBox1_MouseMove[2]( [mscorlib]System.Object, [System.Windows.Forms]System.Windows.Forms.MouseEventArgs ) -> B
+
+	[gdifuncs]gdifuncs.majorsgui::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+	[gdifuncs]gdifuncs.majorsgui::.ctor[0]( ) skipped:  special name
+	[gdifuncs]gdifuncs.majorsgui::OnFormClosing[1]( [System.Windows.Forms]System.Windows.Forms.FormClosingEventArgs ) skipped:  external base class or interface
+
+	System.ComponentModel.IContainer [gdifuncs]System.ComponentModel.IContainer gdifuncs.majorsgui::components -> A
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.majorsgui::_Timer1 -> A
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.majorsgui::_Timer2 -> a
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::_PictureBox1 -> A
+	System.Windows.Forms.Label [gdifuncs]System.Windows.Forms.Label gdifuncs.majorsgui::_Label1 -> A
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::_PictureBox2 -> a
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::_PictureBox6 -> B
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::_PictureBox4 -> b
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::_PictureBox3 -> C
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::_PictureBox5 -> c
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.majorsgui::alrdyfed -> A
+	System.Boolean [gdifuncs]System.Boolean gdifuncs.majorsgui::draging -> A
+	System.Boolean [gdifuncs]System.Boolean gdifuncs.majorsgui::isInjected -> a
+	gdifuncs.protection64 [gdifuncs]gdifuncs.protection64 gdifuncs.majorsgui::p64 -> A
+	System.Drawing.Point [gdifuncs]System.Drawing.Point gdifuncs.majorsgui::pointclicked -> A
+
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.majorsgui::Timer1 -> dropped
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.majorsgui::Timer2 -> dropped
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::PictureBox1 -> dropped
+	System.Windows.Forms.Label [gdifuncs]System.Windows.Forms.Label gdifuncs.majorsgui::Label1 -> dropped
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::PictureBox2 -> dropped
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::PictureBox6 -> dropped
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::PictureBox4 -> dropped
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::PictureBox3 -> dropped
+	System.Windows.Forms.PictureBox [gdifuncs]System.Windows.Forms.PictureBox gdifuncs.majorsgui::PictureBox5 -> dropped
+}
+
+[gdifuncs]gdifuncs.pinksavage skipped:  KeepPublicApi option in configuration
+{
+	[gdifuncs]gdifuncs.pinksavage::InitializeComponent[0]( ) -> A
+	[gdifuncs]gdifuncs.pinksavage::get_Timer1[0]( ) -> a
+	[gdifuncs]gdifuncs.pinksavage::set_Timer1[1]( [System.Windows.Forms]System.Windows.Forms.Timer ) -> A
+	[gdifuncs]gdifuncs.pinksavage::pinksavage_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+	[gdifuncs]gdifuncs.pinksavage::Timer1_Tick[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> a
+
+	[gdifuncs]gdifuncs.pinksavage::get_CreateParams[0]( ) skipped:  skip by property
+	[gdifuncs]gdifuncs.pinksavage::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+	[gdifuncs]gdifuncs.pinksavage::OnFormClosing[1]( [System.Windows.Forms]System.Windows.Forms.FormClosingEventArgs ) skipped:  external base class or interface
+	[gdifuncs]gdifuncs.pinksavage::.ctor[0]( ) skipped:  special name
+
+	System.ComponentModel.IContainer [gdifuncs]System.ComponentModel.IContainer gdifuncs.pinksavage::components -> A
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.pinksavage::_Timer1 -> A
+	System.Double [gdifuncs]System.Double gdifuncs.pinksavage::cur -> A
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.pinksavage::akis -> A
+
+	System.Windows.Forms.Timer [gdifuncs]System.Windows.Forms.Timer gdifuncs.pinksavage::Timer1 -> dropped
+
+	System.Windows.Forms.CreateParams [gdifuncs]System.Windows.Forms.CreateParams gdifuncs.pinksavage::CreateParams skipped:  KeepPublicApi option in configuration
+}
+
+[gdifuncs]gdifuncs.protection64 skipped:  KeepPublicApi option in configuration
+{
+	[gdifuncs]gdifuncs.protection64::InitializeComponent[0]( ) -> A
+	[gdifuncs]gdifuncs.protection64::NtSetInformationProcess[4]( [mscorlib]System.IntPtr, [mscorlib]System.Int32, [mscorlib]System.Int32&, [mscorlib]System.Int32 ) -> A
+	[gdifuncs]gdifuncs.protection64::_EnumDesktopWindows[3]( [mscorlib]System.IntPtr, [gdifuncs]gdifuncs.protection64/EnumDelegate, [mscorlib]System.IntPtr ) -> A
+	[gdifuncs]gdifuncs.protection64::_GetWindowText[3]( [mscorlib]System.IntPtr, [mscorlib]System.Text.StringBuilder, [mscorlib]System.Int32 ) -> A
+	[gdifuncs]gdifuncs.protection64::EnumWindowsProc[2]( [mscorlib]System.IntPtr, [mscorlib]System.Int32 ) -> A
+	[gdifuncs]gdifuncs.protection64::protection64_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
+
+	[gdifuncs]gdifuncs.protection64::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
+	[gdifuncs]gdifuncs.protection64::.ctor[0]( ) skipped:  special name
+	[gdifuncs]gdifuncs.protection64::lower[1]( [mscorlib]System.String ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.protection64::GetWindowText[1]( [mscorlib]System.IntPtr ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.protection64::GetDesktopWindowsCaptions[0]( ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.protection64::logonuiOWR[0]( ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.protection64::taskkill[0]( ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.protection64::regdefend[0]( ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.protection64::selfdefend[0]( ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.protection64::winprockill[0]( ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.protection64::winprockill2[0]( ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.protection64::userIsAdministrator[0]( ) skipped:  KeepPublicApi option in configuration
+	[gdifuncs]gdifuncs.protection64::_Lambda$__R26-1[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.protection64::_Lambda$__R26-2[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.protection64::_Lambda$__R26-3[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.protection64::_Lambda$__R26-4[1]( [mscorlib]System.Object ) skipped:  special name
+
+	System.ComponentModel.IContainer [gdifuncs]System.ComponentModel.IContainer gdifuncs.protection64::components -> A
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.protection64::isCritical -> A
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.protection64::breakOnTermination -> a
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.protection64::MAXTITLE -> B
+	System.Collections.ArrayList [gdifuncs]System.Collections.ArrayList gdifuncs.protection64::mTitlesList -> A
+	System.String[] [gdifuncs]System.String[] gdifuncs.protection64::criticalwindlist -> A
+	System.String[] [gdifuncs]System.String[] gdifuncs.protection64::proclist -> a
+
+	System.Int32 [gdifuncs]System.Int32 gdifuncs.protection64::werekilling skipped:  KeepPublicApi option in configuration
+}
+
+Renamed Resources:
+
+
+Skipped Resources:
+
+gdifuncs.MainForm.resources (KeepPublicApi option in configuration)
+gdifuncs.majorsgui.resources (KeepPublicApi option in configuration)
+gdifuncs.pinksavage.resources (KeepPublicApi option in configuration)
+gdifuncs.protection64.resources (KeepPublicApi option in configuration)
+gdifuncs.Resources.resources (no clear new name)
+gdifuncs.Resource1.resources (no clear new name)

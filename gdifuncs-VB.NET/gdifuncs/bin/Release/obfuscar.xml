@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Obfuscator>
+  <!-- Set the current folder as input -->
+  <Var name="InPath" value="." />
+  
+  <!-- Set the current folder as output -->
+  <Var name="OutPath" value=".\output" />
+  
+  <!-- Specify the input module (gdifuncs.exe) -->
+  <Module file="$(InPath)\gdifuncs.exe">
+    <!-- Set the output filename -->
+    <Var name="OutFileName" value="MrsMajor5.exe" />
+    
+    <!-- Optional: Exclude types, methods, or properties from obfuscation if necessary -->
+  </Module>
+</Obfuscator>

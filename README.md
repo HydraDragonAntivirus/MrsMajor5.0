@@ -18,8 +18,10 @@ I'm going to improve too much so it's not only MrsMajor 3.0 modified version.
  **Note 2**: You must run as an administrator. However, I didn't add an admin rights check because it would break compatibility.
 
 # References
-Fork of this project: https://github.com/Gork3m/MrsMajor-3.0
-Fork of this project: https://github.com/acastillorobles77/MrsMajor-3.0-VB.NET
-Fork of this project: https://github.com/WobbyChip/Delphi/tree/master/MBR%20UEFI%20-%20Note%20Builder
+- Fork of this project: https://github.com/Gork3m/MrsMajor-3.0
+- Fork of this project: https://github.com/acastillorobles77/MrsMajor-3.0-VB.NET
+- Fork of this project: https://github.com/WobbyChip/Delphi/tree/master/MBR%20UEFI%20-%20Note%20Builder
+- For obfuscation: https://www.nuget.org/packages/Obfuscar
+
 # Icon
 ![MrsMajor5](assets/MrsMajor5.png)
