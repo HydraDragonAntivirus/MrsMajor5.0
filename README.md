@@ -22,6 +22,6 @@ I'm going to improve too much so it's not only MrsMajor 3.0 modified version.
 - Fork of this project: https://github.com/acastillorobles77/MrsMajor-3.0-VB.NET
 - Fork of this project: https://github.com/WobbyChip/Delphi/tree/master/MBR%20UEFI%20-%20Note%20Builder
 - For obfuscation: https://www.nuget.org/packages/Obfuscar
-
+- For Audio: Install-Package NAudio -Version 1.10.0 https://github.com/naudio/NAudio
 # Icon
 ![MrsMajor5](assets/MrsMajor5.png)

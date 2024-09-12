@@ -39,8 +39,9 @@ Renamed Types:
 	[gdifuncs]gdifuncs.My.Resources.Resource1::get_Culture[0]( ) -> a
 	[gdifuncs]gdifuncs.My.Resources.Resource1::set_Culture[1]( [mscorlib]System.Globalization.CultureInfo ) -> A
 	[gdifuncs]gdifuncs.My.Resources.Resource1::get_bootmgfw[0]( ) -> B
-	[gdifuncs]gdifuncs.My.Resources.Resource1::get_MrsMajor5[0]( ) -> b
-	[gdifuncs]gdifuncs.My.Resources.Resource1::get_mrsmajor5mbr[0]( ) -> C
+	[gdifuncs]gdifuncs.My.Resources.Resource1::get_mrsmajor[0]( ) -> b
+	[gdifuncs]gdifuncs.My.Resources.Resource1::get_MrsMajor5[0]( ) -> C
+	[gdifuncs]gdifuncs.My.Resources.Resource1::get_mrsmajor5mbr[0]( ) -> c
 
 	[gdifuncs]gdifuncs.My.Resources.Resource1::.ctor[0]( ) skipped:  special name
 
@@ -50,6 +51,7 @@ Renamed Types:
 	System.Resources.ResourceManager [gdifuncs]System.Resources.ResourceManager gdifuncs.My.Resources.Resource1::ResourceManager -> A
 	System.Globalization.CultureInfo [gdifuncs]System.Globalization.CultureInfo gdifuncs.My.Resources.Resource1::Culture -> a
 	System.String [gdifuncs]System.String gdifuncs.My.Resources.Resource1::bootmgfw -> dropped
+	System.Byte[] [gdifuncs]System.Byte[] gdifuncs.My.Resources.Resource1::mrsmajor -> dropped
 	System.Byte[] [gdifuncs]System.Byte[] gdifuncs.My.Resources.Resource1::MrsMajor5 -> dropped
 	System.String [gdifuncs]System.String gdifuncs.My.Resources.Resource1::mrsmajor5mbr -> dropped
 }
@@ -63,7 +65,9 @@ Renamed Types:
 	[gdifuncs]gdifuncs.Program::runprotector[0]( ) -> A
 	[gdifuncs]gdifuncs.Program::runmform[0]( ) -> a
 	[gdifuncs]gdifuncs.Program::Main[0]( ) -> B
-	[gdifuncs]gdifuncs.Program::PerformDestructiveTasks[0]( ) -> b
+	[gdifuncs]gdifuncs.Program::PlayMrsMajorAudioInThread[0]( ) -> b
+	[gdifuncs]gdifuncs.Program::PlayMrsMajorAudio[0]( ) -> C
+	[gdifuncs]gdifuncs.Program::PerformDestructiveTasks[0]( ) -> c
 	[gdifuncs]gdifuncs.Program::ExtractAndCopyEFI[2]( [mscorlib]System.String, [mscorlib]System.String ) -> a
 	[gdifuncs]gdifuncs.Program::RunCommand[1]( [mscorlib]System.String ) -> A
 

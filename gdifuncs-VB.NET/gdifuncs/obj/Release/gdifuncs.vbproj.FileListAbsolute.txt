@@ -12,3 +12,6 @@ C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Releas
 C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.vbproj.CoreCompileInputs.cache
 C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.exe
 C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.pdb
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\bin\Release\NAudio.dll
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\bin\Release\NAudio.xml
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\gdifuncs-VB.NET\gdifuncs\obj\Release\gdifuncs.vbproj.Up2Date
