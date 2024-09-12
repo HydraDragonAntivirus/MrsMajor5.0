@@ -29,7 +29,7 @@ Public Class majorsgui
     End Sub
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
-        'p64.logonuiOWR()
+        p64.logonuiOWR()
     End Sub
 
     Private Sub PictureBox1_MouseDown(sender As Object, e As MouseEventArgs) Handles PictureBox1.MouseDown

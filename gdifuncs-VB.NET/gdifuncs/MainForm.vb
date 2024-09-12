@@ -1,7 +1,6 @@
 ﻿' The original source code made by rootabx is available at: https://github.com/Gork3m/MrsMajor-3.0
 ' rewritten in VB.NET by Angel Castillo / Windows Vista
 
-Imports System.IO
 Imports System.Diagnostics
 Imports System.Drawing
 Imports System.Media
