@@ -1,0 +1,5 @@
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr-cleanstrings\obj\Debug\eulascr-cleanstrings.csproj.AssemblyReference.cache
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr-cleanstrings\obj\Debug\mmdropper.eulaform.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr-cleanstrings\obj\Debug\mmdropper.MainForm.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr-cleanstrings\obj\Debug\eulascr-cleanstrings.csproj.GenerateResource.cache
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr-cleanstrings\obj\Debug\eulascr-cleanstrings.csproj.CoreCompileInputs.cache

@@ -21,10 +21,11 @@ I'm going to improve too much so it's not only MrsMajor 3.0 modified version.
 - Fork of this project: https://github.com/Gork3m/MrsMajor-3.0
 - Fork of this project: https://github.com/acastillorobles77/MrsMajor-3.0-VB.NET
 - Fork of this project: https://github.com/WobbyChip/Delphi/tree/master/MBR%20UEFI%20-%20Note%20Builder
-- For obfuscation: https://www.nuget.org/packages/Obfuscar
-- For Audio: Install-Package NAudio -Version 1.10.0 https://github.com/naudio/NAudio
-- For Reverse MrsMajor3.0 https://www.jetbrains.com/decompiler/
-- For Reverse MrsMajor3.0  https://github.com/SychicBoy/AgileDotNetSlayer
+- For obfuscation but didn't work: https://www.nuget.org/packages/Obfuscar
+- Used For Audio: Install-Package NAudio -Version 1.10.0 https://github.com/naudio/NAudio
+- Used For Reverse MrsMajor3.0 https://www.jetbrains.com/decompiler/
+- Used For Reverse MrsMajor3.0  but didn't work https://github.com/waynebonc/AgileDotNet-StringDeobfuscator
+- Used For Reverse MrsMajor3.0 but didn't work https://github.com/SychicBoy/AgileDotNetSlayer
 
 # Icon
 ![MrsMajor5](assets/MrsMajor5.png)

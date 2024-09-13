@@ -3,95 +3,95 @@
   "WorkspaceRootPath": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\ivirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:ivirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\motherboarddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:motherboarddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\windowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:windowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\vmwareplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:vmwareplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\vmwaremachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:vmwaremachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\virtualpcmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:virtualpcmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\virtualmachinedetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:virtualmachinedetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\_003cmodule_003e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:_003cmodule_003e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\vmwareplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:vmwareplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\windowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:windowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\vmwaremachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:vmwaremachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\virtualpcmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:virtualpcmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\virtualboxmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:virtualboxmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\qemumachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:qemumachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\pnpentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:pnpentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\motherboarddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:motherboarddevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\mmdropper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:mmdropper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\mmdropper\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:mmdropper\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\mmdropper\\eulaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:mmdropper\\eulaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\ivirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:ivirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\initializedelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:initializedelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\hypervmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:hypervmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\exitdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:exitdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\diskdrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:diskdrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\computersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:computersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\bioscharacteristics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:bioscharacteristics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\bios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:bios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\basevirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\basevirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:basevirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr_slayed\\basewin32entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\_003cmodule_003e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:_003cmodule_003e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\virtualboxmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:virtualboxmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\qemumachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:qemumachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\pnpentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:pnpentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\mmdropper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:mmdropper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\mmdropper\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:mmdropper\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\mmdropper\\eulaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:mmdropper\\eulaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\initializedelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:initializedelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\hypervmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:hypervmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\exitdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:exitdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\diskdrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:diskdrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\computersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:computersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\bioscharacteristics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:bioscharacteristics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\bios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:bios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\basewin32entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D9A127B-6192-4661-B20A-4180E73BD575}|eulascr_Slayed.csproj|solutionrelative:basewin32entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -102,34 +102,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VmWarePlayer.cs",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VmWarePlayer.cs",
-              "RelativeDocumentMoniker": "VmWarePlayer.cs",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VmWarePlayer.cs",
-              "RelativeToolTip": "VmWarePlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:44:44.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WindowsService.cs",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\WindowsService.cs",
-              "RelativeDocumentMoniker": "WindowsService.cs",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\WindowsService.cs",
-              "RelativeToolTip": "WindowsService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:44:33.509Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -138,35 +112,9 @@
               "RelativeDocumentMoniker": "VmWareMachine.cs",
               "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VmWareMachine.cs",
               "RelativeToolTip": "VmWareMachine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T18:44:29.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VirtualMachineDetector.cs",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VirtualMachineDetector.cs",
-              "RelativeDocumentMoniker": "VirtualMachineDetector.cs",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VirtualMachineDetector.cs",
-              "RelativeToolTip": "VirtualMachineDetector.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwCEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:44:16.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_003CModule_003E.cs",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\_003CModule_003E.cs",
-              "RelativeDocumentMoniker": "_003CModule_003E.cs",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\_003CModule_003E.cs",
-              "RelativeToolTip": "_003CModule_003E.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:38:15.496Z",
               "EditorCaption": ""
             },
             {
@@ -177,14 +125,108 @@
               "RelativeDocumentMoniker": "VirtualPcMachine.cs",
               "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VirtualPcMachine.cs",
               "RelativeToolTip": "VirtualPcMachine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T18:44:22.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VmWarePlayer.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VmWarePlayer.cs",
+              "RelativeDocumentMoniker": "VmWarePlayer.cs",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VmWarePlayer.cs",
+              "RelativeToolTip": "VmWarePlayer.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T18:44:44.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WindowsService.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\WindowsService.cs",
+              "RelativeDocumentMoniker": "WindowsService.cs",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\WindowsService.cs",
+              "RelativeToolTip": "WindowsService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T18:44:33.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MotherboardDevice.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\MotherboardDevice.cs",
+              "RelativeDocumentMoniker": "MotherboardDevice.cs",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\MotherboardDevice.cs",
+              "RelativeToolTip": "MotherboardDevice.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T18:43:57.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IVirtualEnvironment.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\IVirtualEnvironment.cs",
+              "RelativeDocumentMoniker": "IVirtualEnvironment.cs",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\IVirtualEnvironment.cs",
+              "RelativeToolTip": "IVirtualEnvironment.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T18:43:40.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "VirtualMachineDetector.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VirtualMachineDetector.cs",
+              "RelativeDocumentMoniker": "VirtualMachineDetector.cs",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VirtualMachineDetector.cs",
+              "RelativeToolTip": "VirtualMachineDetector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T18:44:16.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseVirtualEnvironment.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\BaseVirtualEnvironment.cs",
+              "RelativeDocumentMoniker": "BaseVirtualEnvironment.cs",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\BaseVirtualEnvironment.cs",
+              "RelativeToolTip": "BaseVirtualEnvironment.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T18:43:01.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_003CModule_003E.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\_003CModule_003E.cs",
+              "RelativeDocumentMoniker": "_003CModule_003E.cs",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\_003CModule_003E.cs",
+              "RelativeToolTip": "_003CModule_003E.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T18:38:15.496Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "VirtualBoxMachine.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\VirtualBoxMachine.cs",
               "RelativeDocumentMoniker": "VirtualBoxMachine.cs",
@@ -192,12 +234,11 @@
               "RelativeToolTip": "VirtualBoxMachine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:44:11.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:44:11.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "PnPEntity.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\PnPEntity.cs",
               "RelativeDocumentMoniker": "PnPEntity.cs",
@@ -205,12 +246,11 @@
               "RelativeToolTip": "PnPEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:44:02.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:44:02.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "QEmuMachine.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\QEmuMachine.cs",
               "RelativeDocumentMoniker": "QEmuMachine.cs",
@@ -218,25 +258,11 @@
               "RelativeToolTip": "QEmuMachine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:44:01.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:44:01.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MotherboardDevice.cs",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\MotherboardDevice.cs",
-              "RelativeDocumentMoniker": "MotherboardDevice.cs",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\MotherboardDevice.cs",
-              "RelativeToolTip": "MotherboardDevice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:57.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\mmdropper\\MainForm.cs",
               "RelativeDocumentMoniker": "mmdropper\\MainForm.cs",
@@ -244,12 +270,11 @@
               "RelativeToolTip": "mmdropper\\MainForm.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:49.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:43:49.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "eulaform.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\mmdropper\\eulaform.cs",
               "RelativeDocumentMoniker": "mmdropper\\eulaform.cs",
@@ -257,25 +282,11 @@
               "RelativeToolTip": "mmdropper\\eulaform.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:45.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:43:45.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IVirtualEnvironment.cs",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\IVirtualEnvironment.cs",
-              "RelativeDocumentMoniker": "IVirtualEnvironment.cs",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\IVirtualEnvironment.cs",
-              "RelativeToolTip": "IVirtualEnvironment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:40.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "InitializeDelegate.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\InitializeDelegate.cs",
               "RelativeDocumentMoniker": "InitializeDelegate.cs",
@@ -283,12 +294,11 @@
               "RelativeToolTip": "InitializeDelegate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:36.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:43:36.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "HyperVMachine.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\HyperVMachine.cs",
               "RelativeDocumentMoniker": "HyperVMachine.cs",
@@ -296,12 +306,11 @@
               "RelativeToolTip": "HyperVMachine.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:31.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:43:31.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ExitDelegate.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\ExitDelegate.cs",
               "RelativeDocumentMoniker": "ExitDelegate.cs",
@@ -309,12 +318,11 @@
               "RelativeToolTip": "ExitDelegate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:27.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:43:27.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\mmdropper\\Program.cs",
               "RelativeDocumentMoniker": "mmdropper\\Program.cs",
@@ -322,12 +330,11 @@
               "RelativeToolTip": "mmdropper\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:38:41.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:38:41.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DiskDrive.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\DiskDrive.cs",
               "RelativeDocumentMoniker": "DiskDrive.cs",
@@ -335,12 +342,11 @@
               "RelativeToolTip": "DiskDrive.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:22.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:43:22.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ComputerSystem.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\ComputerSystem.cs",
               "RelativeDocumentMoniker": "ComputerSystem.cs",
@@ -348,12 +354,11 @@
               "RelativeToolTip": "ComputerSystem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:17.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:43:17.976Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "BiosCharacteristics.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\BiosCharacteristics.cs",
               "RelativeDocumentMoniker": "BiosCharacteristics.cs",
@@ -361,12 +366,11 @@
               "RelativeToolTip": "BiosCharacteristics.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:12.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:43:12.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "BIOS.cs",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\BIOS.cs",
               "RelativeDocumentMoniker": "BIOS.cs",
@@ -374,21 +378,7 @@
               "RelativeToolTip": "BIOS.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:07.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BaseVirtualEnvironment.cs",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\BaseVirtualEnvironment.cs",
-              "RelativeDocumentMoniker": "BaseVirtualEnvironment.cs",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr_Slayed\\BaseVirtualEnvironment.cs",
-              "RelativeToolTip": "BaseVirtualEnvironment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:43:01.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T18:43:07.392Z"
             },
             {
               "$type": "Document",
@@ -400,12 +390,7 @@
               "RelativeToolTip": "BaseWin32Entity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T18:40:03.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "WhenOpened": "2024-09-13T18:40:03.457Z"
             }
           ]
         }

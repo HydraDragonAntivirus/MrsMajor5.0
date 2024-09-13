@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr-cleanstrings\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DECD0C-D154-41A4-B66B-5CF3E3B33CA9}|eulascr-cleanstrings.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr-cleanstrings\\basevirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DECD0C-D154-41A4-B66B-5CF3E3B33CA9}|eulascr-cleanstrings.csproj|solutionrelative:basevirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DECD0C-D154-41A4-B66B-5CF3E3B33CA9}|eulascr-cleanstrings.csproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\decompiled\\source\\eulascr-cleanstrings\\_003cagiledotnetrt_003e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1DECD0C-D154-41A4-B66B-5CF3E3B33CA9}|eulascr-cleanstrings.csproj|solutionrelative:_003cagiledotnetrt_003e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseVirtualEnvironment.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr-cleanstrings\\BaseVirtualEnvironment.cs",
+              "RelativeDocumentMoniker": "BaseVirtualEnvironment.cs",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr-cleanstrings\\BaseVirtualEnvironment.cs",
+              "RelativeToolTip": "BaseVirtualEnvironment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T19:45:55.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_003CAgileDotNetRT_003E.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr-cleanstrings\\_003CAgileDotNetRT_003E.cs",
+              "RelativeDocumentMoniker": "_003CAgileDotNetRT_003E.cs",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\decompiled\\source\\eulascr-cleanstrings\\_003CAgileDotNetRT_003E.cs",
+              "RelativeToolTip": "_003CAgileDotNetRT_003E.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T19:45:19.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
