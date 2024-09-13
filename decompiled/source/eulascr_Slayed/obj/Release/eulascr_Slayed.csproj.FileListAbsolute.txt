@@ -1,0 +1,10 @@
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr_Slayed\bin\Release\mmdropper.exe.config
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr_Slayed\bin\Release\mmdropper.exe
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr_Slayed\bin\Release\mmdropper.pdb
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr_Slayed\obj\Release\eulascr_Slayed.csproj.AssemblyReference.cache
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr_Slayed\obj\Release\mmdropper.eulaform.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr_Slayed\obj\Release\mmdropper.MainForm.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr_Slayed\obj\Release\eulascr_Slayed.csproj.GenerateResource.cache
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr_Slayed\obj\Release\eulascr_Slayed.csproj.CoreCompileInputs.cache
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr_Slayed\obj\Release\mmdropper.exe
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr_Slayed\obj\Release\mmdropper.pdb

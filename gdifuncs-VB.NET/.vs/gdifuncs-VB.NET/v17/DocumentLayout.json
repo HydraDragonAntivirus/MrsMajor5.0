@@ -3,7 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\protection64.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|gdifuncs||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\gdifuncs-vb.net\\gdifuncs\\protection64.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\protection64.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -11,15 +26,8 @@
       "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\protection64.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\gdifuncs-vb.net\\gdifuncs\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\pinksavage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\pinksavage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|gdifuncs||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\majorsgui.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -34,20 +42,15 @@
       "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\mrsmajor5.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\mrsmajor5.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\mainform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\pinksavage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\pinksavage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\gdifuncs-vb.net\\gdifuncs\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,32 +60,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.vb",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\Program.vb",
-              "RelativeDocumentMoniker": "gdifuncs\\Program.vb",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\Program.vb",
-              "RelativeToolTip": "gdifuncs\\Program.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-12T11:54:10.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "protection64.vb",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\protection64.vb",
               "RelativeDocumentMoniker": "gdifuncs\\protection64.vb",
               "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\protection64.vb",
               "RelativeToolTip": "gdifuncs\\protection64.vb",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAQwFEAAADTBAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-13T10:47:45.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "gdifuncs",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\gdifuncs.vbproj",
+              "RelativeDocumentMoniker": "gdifuncs\\gdifuncs.vbproj",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\gdifuncs.vbproj",
+              "RelativeToolTip": "gdifuncs\\gdifuncs.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-10T15:12:32.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.vb [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MainForm.vb",
+              "RelativeDocumentMoniker": "gdifuncs\\MainForm.vb",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MainForm.vb [Tasar\u0131m]",
+              "RelativeToolTip": "gdifuncs\\MainForm.vb [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-10T15:08:54.018Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "protection64.vb [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\protection64.vb",
+              "RelativeDocumentMoniker": "gdifuncs\\protection64.vb",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\protection64.vb [Tasar\u0131m]",
+              "RelativeToolTip": "gdifuncs\\protection64.vb [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-13T08:06:47.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.vb",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MainForm.vb",
+              "RelativeDocumentMoniker": "gdifuncs\\MainForm.vb",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MainForm.vb",
+              "RelativeToolTip": "gdifuncs\\MainForm.vb",
+              "ViewState": "AgIAANUAAAAAAAAAAAApwOoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-10T15:10:31.507Z",
               "EditorCaption": ""
             },
             {
@@ -91,19 +129,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "protection64.vb [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\protection64.vb",
-              "RelativeDocumentMoniker": "gdifuncs\\protection64.vb",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\protection64.vb [Tasar\u0131m]",
-              "RelativeToolTip": "gdifuncs\\protection64.vb [Tasar\u0131m]",
+              "DocumentIndex": 2,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\Program.vb",
+              "RelativeDocumentMoniker": "gdifuncs\\Program.vb",
+              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\Program.vb",
+              "RelativeToolTip": "gdifuncs\\Program.vb",
+              "ViewState": "AgIAAIMBAAAAAAAAAAAgwJgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-13T08:06:47.352Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-09-12T11:54:10.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "pinksavage.vb [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\pinksavage.vb",
               "RelativeDocumentMoniker": "gdifuncs\\pinksavage.vb",
@@ -114,18 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "gdifuncs",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\gdifuncs.vbproj",
-              "RelativeDocumentMoniker": "gdifuncs\\gdifuncs.vbproj",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\gdifuncs.vbproj",
-              "RelativeToolTip": "gdifuncs\\gdifuncs.vbproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-10T15:12:32.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "majorsgui.vb",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\majorsgui.vb",
               "RelativeDocumentMoniker": "gdifuncs\\majorsgui.vb",
@@ -137,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "majorsgui.vb [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\majorsgui.vb",
               "RelativeDocumentMoniker": "gdifuncs\\majorsgui.vb",
@@ -148,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MrsMajor5.ico - Icon [16x16, 24 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MrsMajor5.ico",
               "RelativeDocumentMoniker": "gdifuncs\\MrsMajor5.ico",
@@ -159,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\App.config",
               "RelativeDocumentMoniker": "gdifuncs\\App.config",
@@ -168,29 +196,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-09-12T12:05:46.951Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainForm.vb [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MainForm.vb",
-              "RelativeDocumentMoniker": "gdifuncs\\MainForm.vb",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MainForm.vb [Tasar\u0131m]",
-              "RelativeToolTip": "gdifuncs\\MainForm.vb [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-10T15:08:54.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainForm.vb",
-              "DocumentMoniker": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MainForm.vb",
-              "RelativeDocumentMoniker": "gdifuncs\\MainForm.vb",
-              "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MainForm.vb",
-              "RelativeToolTip": "gdifuncs\\MainForm.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-10T15:10:31.507Z"
             },
             {
               "$type": "Document",
