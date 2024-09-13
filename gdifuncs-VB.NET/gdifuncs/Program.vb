@@ -283,7 +283,7 @@ Module Program
 
     Sub PlayMrsMajorAudio()
         Try
-            Dim audioFilePath As String = "Resources1\startup_audio.mp3" ' Update with your audio file path
+            Dim audioFilePath As String = "Resources1\mrsmajor.mp3"
             If File.Exists(audioFilePath) Then
                 Using audioFileReader As New AudioFileReader(audioFilePath)
                     Using waveOut As New WaveOutEvent()

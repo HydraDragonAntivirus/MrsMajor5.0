@@ -40,9 +40,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\pinksavage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|solutionrelative:gdifuncs\\pinksavage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05260AB5-8DA0-443A-B3CE-9196D270FC4F}|gdifuncs\\gdifuncs.vbproj|c:\\users\\victim\\documents\\github\\mrsmajor5.0\\gdifuncs-vb.net\\gdifuncs\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|8998e48e-b89a-4034-b66e-353d8c1fdc2e"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +63,7 @@
               "RelativeDocumentMoniker": "gdifuncs\\Program.vb",
               "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\Program.vb",
               "RelativeToolTip": "gdifuncs\\Program.vb",
-              "ViewState": "AgIAAA8BAAAAAAAAAAAAABUBAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAmwB0BAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-12T11:54:10.094Z",
               "EditorCaption": ""
@@ -80,8 +77,7 @@
               "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\pinksavage.vb [Tasar\u0131m]",
               "RelativeToolTip": "gdifuncs\\pinksavage.vb [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-10T15:09:12.312Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-09-10T15:09:12.312Z"
             },
             {
               "$type": "Document",
@@ -92,8 +88,7 @@
               "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\gdifuncs.vbproj",
               "RelativeToolTip": "gdifuncs\\gdifuncs.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-10T15:12:32.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T15:12:32.378Z"
             },
             {
               "$type": "Document",
@@ -105,8 +100,7 @@
               "RelativeToolTip": "gdifuncs\\majorsgui.vb",
               "ViewState": "AgIAADcAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-10T15:10:14.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T15:10:14.074Z"
             },
             {
               "$type": "Document",
@@ -117,8 +111,7 @@
               "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\majorsgui.vb [Tasar\u0131m]",
               "RelativeToolTip": "gdifuncs\\majorsgui.vb [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-10T15:09:01.373Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-09-10T15:09:01.373Z"
             },
             {
               "$type": "Document",
@@ -129,8 +122,7 @@
               "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MrsMajor5.ico - Icon [16x16, 24 bit, PNG]",
               "RelativeToolTip": "gdifuncs\\MrsMajor5.ico - Icon [16x16, 24 bit, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
-              "WhenOpened": "2024-09-12T12:05:19.703Z",
-              "EditorCaption": " - Icon [16x16, 24 bit, PNG]"
+              "WhenOpened": "2024-09-12T12:05:19.703Z"
             },
             {
               "$type": "Document",
@@ -142,8 +134,7 @@
               "RelativeToolTip": "gdifuncs\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-12T12:05:46.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T12:05:46.951Z"
             },
             {
               "$type": "Document",
@@ -154,8 +145,7 @@
               "ToolTip": "C:\\Users\\victim\\Documents\\GitHub\\MrsMajor5.0\\gdifuncs-VB.NET\\gdifuncs\\MainForm.vb [Tasar\u0131m]",
               "RelativeToolTip": "gdifuncs\\MainForm.vb [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-10T15:08:54.018Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-09-10T15:08:54.018Z"
             },
             {
               "$type": "Document",
@@ -167,8 +157,7 @@
               "RelativeToolTip": "gdifuncs\\MainForm.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-10T15:10:31.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T15:10:31.507Z"
             },
             {
               "$type": "Document",
@@ -180,8 +169,7 @@
               "RelativeToolTip": "gdifuncs\\pinksavage.vb",
               "ViewState": "AgIAABoAAAAAAAAAAAAIwC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-10T15:09:50.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T15:09:50.809Z"
             }
           ]
         }
