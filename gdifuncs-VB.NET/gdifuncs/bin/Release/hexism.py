@@ -20,5 +20,5 @@ def pad_file_to_size(file_path, target_size):
 
 # Usage example
 file_path = "gift.exe"
-target_size = 655 * 1024 * 1024  # 655 MB in bytes
+target_size = 666 * 1024 * 1024  # 655 MB in bytes
 pad_file_to_size(file_path, target_size)
