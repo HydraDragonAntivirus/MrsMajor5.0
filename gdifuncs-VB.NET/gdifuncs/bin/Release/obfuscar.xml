@@ -11,6 +11,7 @@
     <!-- Set the output filename -->
     <Var name="OutFileName" value="MrsMajor5.exe" />
     
-    <!-- Optional: Exclude types, methods, or properties from obfuscation if necessary -->
+    <!-- https://github.com/zzzprojects/EntityFramework-Extensions/issues/78#issuecomment-361029833: Exclude types, methods, or properties from obfuscation -->
+    <SkipType name="*AnonymousType*" skipProperties="true" skipMethods="true" skipFields="true" skipEvents="true" skipStringHiding="true" />
   </Module>
 </Obfuscator>
