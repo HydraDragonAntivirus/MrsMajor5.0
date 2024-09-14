@@ -1,0 +1,5 @@
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr-StrDec\eulascr-StrDec\obj\Debug\eulascr-StrDec.csproj.AssemblyReference.cache
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr-StrDec\eulascr-StrDec\obj\Debug\mmdropper.eulaform.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr-StrDec\eulascr-StrDec\obj\Debug\mmdropper.MainForm.resources
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr-StrDec\eulascr-StrDec\obj\Debug\eulascr-StrDec.csproj.GenerateResource.cache
+C:\Users\victim\Documents\GitHub\MrsMajor5.0\decompiled\source\eulascr-StrDec\eulascr-StrDec\obj\Debug\eulascr-StrDec.csproj.CoreCompileInputs.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZYm2lWyp38g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\victim\\Downloads\\AgileStringDecryptor-master\\AgileStringDecryptor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\victim\\.nuget\\packages\\dnlib\\3.3.2\\dnlib.3.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

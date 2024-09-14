@@ -1,0 +1,12 @@
+C:\Users\victim\Downloads\AgileStringDecryptor-master\bin\Debug\net48\AgileStringDecryptor.exe.config
+C:\Users\victim\Downloads\AgileStringDecryptor-master\bin\Debug\net48\AgileStringDecryptor.exe
+C:\Users\victim\Downloads\AgileStringDecryptor-master\bin\Debug\net48\AgileStringDecryptor.pdb
+C:\Users\victim\Downloads\AgileStringDecryptor-master\bin\Debug\net48\dnlib.dll
+C:\Users\victim\Downloads\AgileStringDecryptor-master\obj\Debug\net48\AgileStringDecryptor.csproj.AssemblyReference.cache
+C:\Users\victim\Downloads\AgileStringDecryptor-master\obj\Debug\net48\AgileStringDecryptor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victim\Downloads\AgileStringDecryptor-master\obj\Debug\net48\AgileStringDecryptor.AssemblyInfoInputs.cache
+C:\Users\victim\Downloads\AgileStringDecryptor-master\obj\Debug\net48\AgileStringDecryptor.AssemblyInfo.cs
+C:\Users\victim\Downloads\AgileStringDecryptor-master\obj\Debug\net48\AgileStringDecryptor.csproj.CoreCompileInputs.cache
+C:\Users\victim\Downloads\AgileStringDecryptor-master\obj\Debug\net48\AgileStr.32B1ECDA.Up2Date
+C:\Users\victim\Downloads\AgileStringDecryptor-master\obj\Debug\net48\AgileStringDecryptor.exe
+C:\Users\victim\Downloads\AgileStringDecryptor-master\obj\Debug\net48\AgileStringDecryptor.pdb

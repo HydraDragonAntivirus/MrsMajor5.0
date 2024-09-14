@@ -24,7 +24,7 @@ I'm going to improve too much so it's not only MrsMajor 3.0 modified version.
 - For obfuscation but didn't work: https://www.nuget.org/packages/Obfuscar
 - Used For Audio: Install-Package NAudio -Version 1.10.0 https://github.com/naudio/NAudio
 - Used For Reverse MrsMajor3.0 https://www.jetbrains.com/decompiler/
-- Used For Reverse MrsMajor3.0  but didn't work https://github.com/waynebonc/AgileDotNet-StringDeobfuscator
+- Used For Reverse MrsMajor3.0 and forked https://github.com/waynebonc/AgileDotNet-StringDeobfuscator
 - Used For Reverse MrsMajor3.0 but didn't work https://github.com/SychicBoy/AgileDotNetSlayer
 
 # Icon
