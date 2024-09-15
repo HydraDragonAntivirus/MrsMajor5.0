@@ -1,0 +1,589 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|c:\\users\\victim\\desktop\\exter\\eulascr-utf8fixed\\mmdropper\\eulaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:mmdropper\\eulaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\windowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:windowsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\virtualmachinedetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:virtualmachinedetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|c:\\users\\victim\\desktop\\exter\\eulascr-utf8fixed\\agiledotnetrt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:agiledotnetrt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|c:\\users\\victim\\desktop\\exter\\eulascr-utf8fixed\\oxm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:oxm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_003cmodule_003e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_003cmodule_003e.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\mmdropper\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:mmdropper\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\fe3c441d-df9d-407b-917d-0b4471a8296c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:fe3c441d-df9d-407b-917d-0b4471a8296c.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|eulascr-Utf8Fixed||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u7777_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u7777_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u77ce_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u77ce_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u7785_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u7785_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u7782_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u7782_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u7783_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u7783_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u7784_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u7784_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u777d_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u777d_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u7781_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u7781_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u7780_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u7780_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u777e_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u777e_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u777f_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u777f_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\pnpentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:pnpentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\basevirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:basevirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\bios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:bios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\hypervmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:hypervmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\ivirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:ivirtualenvironment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\virtualboxmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:virtualboxmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\virtualpcmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:virtualpcmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\basewin32entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:basewin32entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\bioscharacteristics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:bioscharacteristics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\computersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:computersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\diskdrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:diskdrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\mmdropper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:mmdropper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\initializedelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:initializedelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\exitdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:exitdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_u77d4_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}|eulascr-Utf8Fixed.csproj|solutionrelative:_u77d4_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgileDotNetRT.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\AgileDotNetRT.cs",
+              "RelativeDocumentMoniker": "AgileDotNetRT.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\AgileDotNetRT.cs",
+              "RelativeToolTip": "AgileDotNetRT.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T09:10:52.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "oxM.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\oxM.cs",
+              "RelativeDocumentMoniker": "oxM.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\oxM.cs",
+              "RelativeToolTip": "oxM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:15:35.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_003CModule_003E.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_003CModule_003E.cs",
+              "RelativeDocumentMoniker": "_003CModule_003E.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_003CModule_003E.cs",
+              "RelativeToolTip": "_003CModule_003E.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T17:52:09.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_U777E_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U777E_.cs",
+              "RelativeDocumentMoniker": "_U777E_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U777E_.cs",
+              "RelativeToolTip": "_U777E_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:16:08.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "eulaform.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\mmdropper\\eulaform.cs",
+              "RelativeDocumentMoniker": "mmdropper\\eulaform.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\mmdropper\\eulaform.cs",
+              "RelativeToolTip": "mmdropper\\eulaform.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:14:00.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\mmdropper\\MainForm.cs",
+              "RelativeDocumentMoniker": "mmdropper\\MainForm.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\mmdropper\\MainForm.cs",
+              "RelativeToolTip": "mmdropper\\MainForm.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAqwH4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:13:50.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VirtualMachineDetector.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\VirtualMachineDetector.cs",
+              "RelativeDocumentMoniker": "VirtualMachineDetector.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\VirtualMachineDetector.cs",
+              "RelativeToolTip": "VirtualMachineDetector.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:15:25.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowsService.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\WindowsService.cs",
+              "RelativeDocumentMoniker": "WindowsService.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\WindowsService.cs",
+              "RelativeToolTip": "WindowsService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:15:16.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_U777F_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U777F_.cs",
+              "RelativeDocumentMoniker": "_U777F_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U777F_.cs",
+              "RelativeToolTip": "_U777F_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:16:02.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FE3C441D-DF9D-407b-917D-0B4471A8296C.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\FE3C441D-DF9D-407b-917D-0B4471A8296C.cs",
+              "RelativeDocumentMoniker": "FE3C441D-DF9D-407b-917D-0B4471A8296C.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\FE3C441D-DF9D-407b-917D-0B4471A8296C.cs",
+              "RelativeToolTip": "FE3C441D-DF9D-407b-917D-0B4471A8296C.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:21:32.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_U7781_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7781_.cs",
+              "RelativeDocumentMoniker": "_U7781_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7781_.cs",
+              "RelativeToolTip": "_U7781_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:16:18.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PnPEntity.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\PnPEntity.cs",
+              "RelativeDocumentMoniker": "PnPEntity.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\PnPEntity.cs",
+              "RelativeToolTip": "PnPEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:15:56.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_U7780_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7780_.cs",
+              "RelativeDocumentMoniker": "_U7780_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7780_.cs",
+              "RelativeToolTip": "_U7780_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:16:13.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_U77CE_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U77CE_.cs",
+              "RelativeDocumentMoniker": "_U77CE_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U77CE_.cs",
+              "RelativeToolTip": "_U77CE_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:30:02.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_U7777_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7777_.cs",
+              "RelativeDocumentMoniker": "_U7777_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7777_.cs",
+              "RelativeToolTip": "_U7777_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:30:14.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "eulascr-Utf8Fixed",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\eulascr-Utf8Fixed.csproj",
+              "RelativeDocumentMoniker": "eulascr-Utf8Fixed.csproj",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\eulascr-Utf8Fixed.csproj",
+              "RelativeToolTip": "eulascr-Utf8Fixed.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-14T16:30:40.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_U7785_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7785_.cs",
+              "RelativeDocumentMoniker": "_U7785_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7785_.cs",
+              "RelativeToolTip": "_U7785_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:16:43.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_U777D_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U777D_.cs",
+              "RelativeDocumentMoniker": "_U777D_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U777D_.cs",
+              "RelativeToolTip": "_U777D_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:16:22.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_U7784_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7784_.cs",
+              "RelativeDocumentMoniker": "_U7784_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7784_.cs",
+              "RelativeToolTip": "_U7784_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:16:31.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_U7783_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7783_.cs",
+              "RelativeDocumentMoniker": "_U7783_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7783_.cs",
+              "RelativeToolTip": "_U7783_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:16:35.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_U7782_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7782_.cs",
+              "RelativeDocumentMoniker": "_U7782_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U7782_.cs",
+              "RelativeToolTip": "_U7782_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:16:39.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BIOS.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\BIOS.cs",
+              "RelativeDocumentMoniker": "BIOS.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\BIOS.cs",
+              "RelativeToolTip": "BIOS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:15:48.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HyperVMachine.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\HyperVMachine.cs",
+              "RelativeDocumentMoniker": "HyperVMachine.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\HyperVMachine.cs",
+              "RelativeToolTip": "HyperVMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:15:44.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IVirtualEnvironment.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\IVirtualEnvironment.cs",
+              "RelativeDocumentMoniker": "IVirtualEnvironment.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\IVirtualEnvironment.cs",
+              "RelativeToolTip": "IVirtualEnvironment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:15:39.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VirtualBoxMachine.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\VirtualBoxMachine.cs",
+              "RelativeDocumentMoniker": "VirtualBoxMachine.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\VirtualBoxMachine.cs",
+              "RelativeToolTip": "VirtualBoxMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:15:30.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseVirtualEnvironment.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\BaseVirtualEnvironment.cs",
+              "RelativeDocumentMoniker": "BaseVirtualEnvironment.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\BaseVirtualEnvironment.cs",
+              "RelativeToolTip": "BaseVirtualEnvironment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:14:39.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VirtualPcMachine.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\VirtualPcMachine.cs",
+              "RelativeDocumentMoniker": "VirtualPcMachine.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\VirtualPcMachine.cs",
+              "RelativeToolTip": "VirtualPcMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:15:21.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BaseWin32Entity.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\BaseWin32Entity.cs",
+              "RelativeDocumentMoniker": "BaseWin32Entity.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\BaseWin32Entity.cs",
+              "RelativeToolTip": "BaseWin32Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:14:35.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BiosCharacteristics.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\BiosCharacteristics.cs",
+              "RelativeDocumentMoniker": "BiosCharacteristics.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\BiosCharacteristics.cs",
+              "RelativeToolTip": "BiosCharacteristics.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:14:31.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ComputerSystem.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\ComputerSystem.cs",
+              "RelativeDocumentMoniker": "ComputerSystem.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\ComputerSystem.cs",
+              "RelativeToolTip": "ComputerSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:14:26.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DiskDrive.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\DiskDrive.cs",
+              "RelativeDocumentMoniker": "DiskDrive.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\DiskDrive.cs",
+              "RelativeToolTip": "DiskDrive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:14:22.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\mmdropper\\Program.cs",
+              "RelativeDocumentMoniker": "mmdropper\\Program.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\mmdropper\\Program.cs",
+              "RelativeToolTip": "mmdropper\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:14:17.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InitializeDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\InitializeDelegate.cs",
+              "RelativeDocumentMoniker": "InitializeDelegate.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\InitializeDelegate.cs",
+              "RelativeToolTip": "InitializeDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:14:13.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ExitDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\ExitDelegate.cs",
+              "RelativeDocumentMoniker": "ExitDelegate.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\ExitDelegate.cs",
+              "RelativeToolTip": "ExitDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:14:05.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_U77D4_.cs",
+              "DocumentMoniker": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U77D4_.cs",
+              "RelativeDocumentMoniker": "_U77D4_.cs",
+              "ToolTip": "C:\\Users\\victim\\Desktop\\exter\\eulascr-Utf8Fixed\\_U77D4_.cs",
+              "RelativeToolTip": "_U77D4_.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:54:50.564Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

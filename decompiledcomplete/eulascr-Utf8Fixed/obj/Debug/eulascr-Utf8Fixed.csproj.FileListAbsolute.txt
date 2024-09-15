@@ -1,0 +1,11 @@
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\obj\Debug\eulascr-Utf8Fixed.csproj.AssemblyReference.cache
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\obj\Debug\mmdropper.eulaform.resources
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\obj\Debug\mmdropper.MainForm.resources
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\obj\Debug\eulascr-Utf8Fixed.csproj.GenerateResource.cache
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\obj\Debug\eulascr-Utf8Fixed.csproj.CoreCompileInputs.cache
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\bin\Debug\mmdropper.exe.config
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\bin\Debug\mmdropper.exe
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\bin\Debug\mmdropper.pdb
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\obj\Debug\eulascr-.9AEEA39A.Up2Date
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\obj\Debug\mmdropper.exe
+C:\Users\victim\Desktop\exter\eulascr-Utf8Fixed\obj\Debug\mmdropper.pdb

